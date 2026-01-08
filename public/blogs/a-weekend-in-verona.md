@@ -1,0 +1,31 @@
+<img src="/images/blog/veronab.jpg" alt="A Weekend In Verona" width="100%">
+
+### A Weekend In Verona
+
+I’m not one for posting travel blogs, mainly because I rarely travel, but a few days ago I was fortunate enough to head to the beautiful Italian city of Verona for a long weekend.
+
+My partner has been working and studying in Italy for the summer in some beautiful surroundings. You can follow her adventures at her blog, <a href="http://harrietllowe.blogspot.co.uk/" target="_blank" title="A British Summer In Italy">A British Summer In Italy</a>. With a week to kill in between ending her spell teaching English to Italian children for <a href="http://www.acle.org/" target="_blank" title="ACLE">ACLE</a> and beginning a university course in Gargnano on the astonishing Lake Garda, the opportunity came around for me to make a trip to Italy. I was hardly going to say no.
+
+My last visit to Italy came as a 12-year-old on a school trip with my Latin class. Yes, you did read that correctly, Latin. A school in Croydon taught Latin. The trip took in four incredible cities: Rome, Milan, Pisa and Venice. I was very fortunate to make the trip, however, I do wish I was a little bit older so I could have taken it in more.
+
+With our minds set on Verona, the Friday began with a 4am alarm and a trip down to Gatwick for an early flight. Having only flown twice in my life, the thought of flying on my own barely crossed my mind. With Raymond Kurzweil’s <a href="http://www.singularity.com/" target="_blank" title="The Singularity Is Near">The Singularity Is Near</a> to read and episodes of <a href="http://www.nbc.com/the-blacklist" target="_blank" title="The Blacklist">The Blacklist</a> pre-loaded onto my iPad, the short flight flew by.
+
+Landing in Verona, the first thing that struck me getting off the plane was the heat. I had been warned about it so expected it, but it was even more intense that I could ever have imagined, and I loved it.
+
+A quick bus trip from the airport to the station followed, before a brisk walk brought us to our accommodation for the weekend, <a href="http://www.hotelsiena-verona.it/" target="_blank" title="Hotel Siena">Hotel Siena</a>. Somehow only a 2-star hotel, the Hotel Siena has recently been renovated and we were fortunate to have one of the newer rooms in the hotel, complete with a balcony that was blazed in sunshine from dusk until dawn. The hotel is well located, just a short walk from the city centre, and is one that I would definitely recommend to anyone visiting Verona.
+
+Now, the city itself. Where to begin? It is a wonderful place, with not too many tourists as opposed to other parts of Italy such as Rome or Venice. A short walk took us to the city centre which is dominated by the <a href="http://www.arena.it/arena/en" target="_blank" title="Arena di Verona">Arena di Verona</a>, a splendid amphitheatre that was built in the 1st century and is still in use today. There are a number of great restaurants that have outdoor seating (of course, this is Italy), which provide a great view of the amphitheatre while enjoying a meal, a view that we enjoyed most afternoons and evenings.
+
+With only a long weekend to spend in the city, we did our best to take in as many sights as we could, and I’m very pleased with how many we ticked off.
+
+No trip to Verona would be complete without a visit to La casa di Giulietta, otherwise know as Juliet’s House from Shakespeare’s famous Romeo &amp; Juliet. Although absolutely packed full of tourists, including in the street leading to the famous house, it is a splendid site and definitely worth a visit. €4 is enough for you to take a trip inside the house and onto the balcony, something that we passed on, however.
+
+The Adige River runs through the city and has beautiful views from pretty much any point you decide to look at it. A personal favourite came when visiting the Castelvecchio Museum, which includes the Castelvecchio Bridge, providing stunning views from either side. There are also a few stairs which you can follow to actually sit by the river and take in the surroundings.
+
+A place I would highly recommend visiting to get a great view of the city is Castel Saint Pietro. It takes quite a lot of steps to reach the top, and we saw many a tourist struggling by the half-way point, especially in the heat, but once at the top, the views are definitely worth it. It provides city-wide views from a number of spots and heights, and we also had lunch at <a href="http://teodoricore.com/" target="_blank" title="TeodoricoRe Verona">TeodoricoRe</a>, a restaurant at the very top overlooking the city. I’m not sure I’ve had a better view while eating lunch before.
+
+Finally, a place that was on my tick-list for sure as a huge football fan was the Stadio Marcantonio Bentegodi, home to both Verona teams, <a href="http://www.hellasverona.it/" target="_blank" title="Hellas Verona">Hellas Verona</a> and <a href="http://www.chievoverona.it/en" target="_blank" title="Chievo Verona">Chievo Verona</a>. Having passed the Hellas Verona store in the city centre a number of times over the weekend, impulse on the Sunday saw me purchase a Hellas Verona shirt as a souvenir of the trip, complete with name and number (Hutton, no.2 if you’re wondering) on the back. The stadium itself isn’t in the best part of Verona, but I’d still probably take it over London any day. Surrounded by fencing, we didn’t get to see much of the inside of the stadium, but the outside was impressive enough, and certainly looks a lot larger than it’s 38,402 capacity.
+
+All in all, I was hugely impressed with Verona, and it’s a city I would love to visit again, in a country that I will definitely be visiting again. Over the course of the weekend we had already begun to plan a trip to Rome in March of next year. There wasn’t a single moment I would have changed about the perfect weekend and I was very fortunate to have great accommodation in a superb city, nothing but incredible weather, and with the best company I could have wished for.
+
+It took just three days for my partner’s love affair with Italy to transfer to me, and I can safely say I’ll be back there soon. Arrivederci Italia, for now at least.

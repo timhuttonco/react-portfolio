@@ -1,0 +1,20 @@
+<img src="/images/blog/decibelinsightknowledgebase.jpg" alt="Decibel Insight Knowledgebase Officially Launched" width="100%">
+
+
+### Decibel Insight Knowledgebase Officially Launched
+
+Part of my role as Solutions Engineer at <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel Insight">Decibel Insight</a> often requires communicating with and helping clients to implement Decibel Insight on their website, as well as providing support to clients on how to use the app and get the most out of their data.
+
+I am also involved in creating technical documentation, such as the <a href="https://www.decibelinsight.com/assets/Documents/DecibelInsightImplementationGuide.pdf" target="_blank" title="Decibel Insight Implementation Guide">Decibel Insight Implementation Guide</a>, along with integration guides for setting up our integrations with <a href="https://knowledgebase.decibelinsight.com/articles/641-adobe-analytics" target="_blank" title="Decibel Insight Adobe Analytics">Adobe Analytics</a> and <a href="https://knowledgebase.decibelinsight.com/articles/642-google-analytics" target="_blank" title="Decibel Insight Google Analytics Integration">Google Analytics</a> to name a few.
+
+Having worked with clients such as <a href="http://www.britishairways.com/" target="_blank" title="British Airways">British Airways</a>, <a href="http://ee.co.uk/" target="_blank" title="EE">EE</a>, <a href="http://uk.virginmoney.com/virgin/" target="_blank" title="Virgin Money">Virgin Money</a>, <a href="http://www.gm.com/index.html" target="_blank" title="General Motors">General Motors</a> and others, it became evident quite quickly that there needed to be a centralised hub for all of these guides, as well as information on using the Decibel Insight app, which is where the idea for a <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowlegebase</a> came from.
+
+I was required to create all of the content that would be present on the <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowledgebase</a>, from simple descriptions of features and metrics, to detailed step-by-step guides on how to set up parts of the app, such as creating funnels and segments.
+
+> Users can find detailed, visual guides - as well as a number of FAQs - on everything from initial implementation of <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel Insight">Decibel Insight</a> and integrations with other tools, to setting up custom dimensions and getting the most out of form analytics.
+
+We’ll be adding to and refining the <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowledgebase</a> alongside our weekly development sprints, keeping it up to date with the latest versions of <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel Insight">Decibel Insight</a> and ensuring it clearly lays out the optimal way to get things done.
+
+For instance, a recent development sprint added the Archive feature to Decibel Insight, a centralized location for all of your screenshots and session exports. You can read all about this new feature on the Knowledgebase <a href="https://knowledgebase.decibelinsight.com/categories/272-archives" target="_blank" title="Archives Decibel Insight Knowledgebase">here</a>.
+
+You can find links to the <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowledgebase</a> from inside the <a href="http://app.decibelinsight.com/" target="_blank" title="Decibel Insight app">Decibel Insight</a> app and also in the footer of the <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel Insight">website</a> – though, if you're a regular Decibel Insight user, we recommend you bookmark it! To visit the knowledgebase, click <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">here</a>.

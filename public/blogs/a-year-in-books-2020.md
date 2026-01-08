@@ -1,0 +1,136 @@
+<img src="/images/blog/a-year-in-books-2020.png" alt="A Year In Books - 2020" width="100%">
+
+
+### A Year In Books - 2020
+
+True to fashion, I have compiled a list of books read in the last calendar year, and in true Tim Hutton fashion, the post has come later in the year than the previous version. In my last <a href="../blogs/a-year-in-books-2019" target="_blank" title="A Year In Books - 2019">"Year In Books"</a> article, I mentioned that I intended to read more this year, which felt like an obvious statement. I now possessed a <a href="https://www.amazon.co.uk/gp/browse.html?node=22380208031&ref_=nav_em__knwstnd35_0_2_8_2" target="_blank" title="Amazon Kindle">Kindle</a> and was about to embark on a new job that had a longer commute, the perfect combination. Then 2020 happened and commuting on public transport stopped existing for most, including me. Obviously one can still read from the comfort of their own home, but like many things in 2020 other than Netflix and binge-eating, I didn't do it anywhere near as much as I would have liked. Alas, here is this year's list, enjoy!
+
+##### <a href="https://amzn.to/3oS68d2" target="_blank" title="Siege: Trump Under Fire">Siege: Trump Under Fire - Michael Wolff</a>
+###### Genre: Politics & Government
+###### Rating: 4/10
+It's safe to say that 2020 was a fairly <a href="https://www.economist.com/us-election-2020" target="_blank" title="US politics and the 2020 elections - The Economist">chaotic year in American politics</a>, although I read this at the start of the year, obviously having no idea of the madness that was to come. Having read Michael Wolff's previous take, <a href="https://amzn.to/2MZHppQ" target="_blank" title="Fire and Fury">Fire and Fury</a>, on the Trump White House, it felt appropriate to read his follow up to see if anything had changed (spoiler alert: it hadn't). Just like <a href="https://amzn.to/2MZHppQ" target="_blank" title="Fire and Fury">Fire and Fury</a>, it leaves you shaking your head throughout, but it reads more like a diary of Steve Bannon and his view of Trump's White House from the outside rather than an insider view.
+
+##### <a href="https://amzn.to/3pVmlQ1" target="_blank" title="The Chimp Paradox">The Chimp Paradox - Steve Peters</a>
+###### Genre: Psychology
+###### Rating: 5/10
+I am always interested in reading books or articles about self-improvement, or that put themselves in the "self-help" category, and had been recommended this book by a number of people. Steve Peters takes a look at how impulsive behaviour can negatively impact personal and professional lives, along with why that is the case, presenting his theory that there are two parts of the brain, a rational and an emotional (chimp) part. It's an interesting read particularly in the early stages, and there will be examples that you will agree with, but the book does drag on which can be frustrating, particularly when it is regularly repeating the same message throughout. If interested in reading from this category, I would say there are others that may be of more benefit, such as <a href="https://amzn.to/2YRdhzT" target="_blank" title="The Subtle Art of Not Giving a F*ck">The Subtle Art of Not Giving a F*ck</a> or <a href="https://amzn.to/3rDo5y3" target="_blank" title="Atomic Habits">Atomic Habits</a> (more on that later). 
+
+##### <a href="https://amzn.to/3aDhZXl" target="_blank" title="Red Notice: How I Became Putin's No. 1 Enemy">Red Notice: How I Became Putin's No. 1 Enemy - Bill Browder</a>
+###### Genre: Politics & Government
+###### Rating: 8/10
+Anyone who has read my previous instalments will know that I am a bit of a sucker when it comes to fascinating real-life events. I was recommended this having read similar books such as <a href="https://amzn.to/3pULlqv" target="_blank" title="Bad Blood">Bad Blood</a>, <a href="https://amzn.to/3ruq4nV" target="_blank" title="Billion Dollar Whale">Billion Dollar Whale</a> and <a href="https://amzn.to/3tuIG9b" target="_blank" title="The Smartest Guys in the Room">The Smartest Guys in the Room</a>, and while perhaps not up there with <a href="https://amzn.to/3pULlqv" target="_blank" title="Bad Blood">Bad Blood</a>, it certainly is an interesting tale that reads like a thriller. The book is written from a first-person perspective and centres around Browder's involvement in business in Russia. It is an intriguing look at firstly how he built his career in the area, followed by how it comes crashing down due to alleged corruption amongst oligarchs. Browder does, of course, paint himself in a holier-than-thou light, but as long as you can get past that (and the unnecessarily unimaginative description of every single female character as "pretty"), it makes for a real page turner.
+
+##### <a href="https://amzn.to/3tvz26j" target="_blank" title="The Mechanic: The Secret World of the F1 Pitlane">The Mechanic: The Secret World of the F1 Pitlane - Marc Priestley</a>
+###### Genre: Sport
+###### Rating: 8/10
+This book had been on my to-read list for quite a long time and I am glad that I finally got around to it. Marc Priestley writes about his time in motor racing, starting in <a href="https://www.fiaformula3.com/" target="_blank" title="FIA Formula 3">Formula 3</a> and working his way up to spend 10 years as a mechanic for <a href="https://www.mclaren.com/racing/" target="_blank" title="McLaren F1">McLaren</a>. It includes some fantastic insights of dramas from inside the pit lane, along with some hilarious stories involving mechanics and drivers away from the track (spoiler alert: Kimi Räikkönen is exactly as you would expect him to be). An easy read and one which I'm pretty sure I got through in the space of a flight…remember when flying was a thing?
+
+##### <a href="https://amzn.to/3aERnFo" target="_blank" title="The Alliance: Managing Talent in the Networked Age">The Alliance: Managing Talent in the Networked Age - Reid Hoffman</a>
+###### Genre: Management & Leadership
+###### Rating: 6/10
+I feel very fortunate that during my career I have been able to lead and manage some incredible individuals. Ahead of moving into my new role at <a href="https://tealium.com/" target="_blank" title="Tealium">Tealium</a> at the start of this year, I decided to take in Reid Hoffman's often recommended <a href="https://amzn.to/3aERnFo" target="_blank" title="The Alliance: Managing Talent in the Networked Age">The Alliance</a>, which looks at how the employer-employee relationship has changed in recent years and how managers can adapt to that. A fairly quick and useful read, although a little disjointed as a book and might have worked better as a series of blog posts/articles, but still one that I would recommend anyone in Leadership roles to take in.
+
+##### <a href="https://amzn.to/3oLSwA8" target="_blank" title="Permanent Record">Permanent Record - Edward Snowden</a>
+###### Genre: Biography
+###### Rating: 8/10
+Regardless of your thoughts of Edward Snowden and his actions, one thing that cannot be denied is his involvement in dramatically increasing awareness in the possibilities that governments have for mass surveillance. Snowden's book opens up on his life and struggles, along with some great nostalgia for anyone interested in tech, and covers his fascinating career, building up to the self-questioning of his work on ethical grounds and the eventual leaking of information on this work to journalists which has resulted in his continued exile. While obviously one-sided, it is a really captivating read for anyone interested in data usage, and involves the following quote which really stuck with me: "Saying that you don't care about privacy because you have nothing to hide is no different from saying you don't care about freedom of speech because you have nothing to say".
+
+##### <a href="https://amzn.to/39SyD6o" target="_blank" title="Thinking, Fast and Slow">Thinking, Fast and Slow - Daniel Kahneman</a>
+###### Genre: Psychology
+###### Rating: 7/10
+Another that had been on my reading list for a while, I first heard about <a href="https://amzn.to/39SyD6o" target="_blank" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a> during a talk at the incredibly informative (and brilliantly named) <a href="https://craptalks.com/" target="_blank" title="CRAP Talks">CRAP Talks</a> in 2018, back in the days when in-person events happened. Kahneman's book is on a fairly similar topic to <a href="https://amzn.to/3pVmlQ1" target="_blank" title="The Chimp Paradox">The Chimp Paradox</a> that I read earlier in the year and looks at how the mind makes decisions in two ways: fast, intuitive thinking, and slow, rational thinking. I would rate this as better and more interesting than <a href="https://amzn.to/3pVmlQ1" target="_blank" title="The Chimp Paradox">The Chimp Paradox</a>, and reading this will likely lead to one asking themselves some interesting questions and observing the way you think. If not, you will at least take away some interesting mental riddles that you can use to fool friends and colleagues.
+
+##### <a href="https://amzn.to/2YQozEC" target="_blank" title="Chameleon: A City of London Thriller">Chameleon: A City of London Thriller - J Jackson Bentley</a>
+###### Genre: Thrillers
+###### Rating: 5/10
+Having read and enjoyed J Jackson Bentley's <a href="https://amzn.to/2MXlOyr" target="_blank" title="48 Hours">48 Hours</a>, I decided to take in his follow-up novel which carries on the previous story. <a href="https://amzn.to/2YQozEC" target="_blank" title="Chameleon: A City of London Thriller">Chameleon</a> is still a fairly good read and fast-paced with plenty of twists and turns, but not as good as its predecessor. An additional point was taken off the rating for the bemusing and needless short chapter midway through where the writer inserts himself as a character who is, funnily enough, an author, and meets the main characters for a "quick hello" in his fictional office in The Shard, all very peculiar.
+
+##### <a href="https://amzn.to/36LtfzT" target="_blank" title="Super Pumped: The Battle for Uber">Super Pumped: The Battle for Uber – Mike Isaac</a>
+###### Genre: Business
+###### Rating: 7/10
+It is hard to think of a company that has had as much negative press, despite huge growth, as <a href="https://www.uber.com/" target="_blank" title="">Uber</a> had during its formative years. But it's also safe to say that Uber has become a part of everyday life, to the point where Uber itself has joined the select list of brands that become verbs (although there are a few articles online <a href="https://qz.com/1390882/is-uber-a-verb/" target="_blank" title="Is Uber a verb?">debating this</a>). Mike Isaac takes a detailed look at the company's growth and the behind-the-scenes battle for control, with some insane amounts of money being thrown around throughout the chapters. For those familiar with the story, there won't be too many surprises, but there will definitely be a lot of head-shaking moments.
+
+##### <a href="https://amzn.to/3aAdrBe" target="_blank" title="Twas The Nightshift Before Christmas">Twas The Nightshift Before Christmas – Adam Kay</a>
+###### Genre: Humour
+###### Rating: 6/10
+Adam Kay follows up the brilliant <a href="https://amzn.to/2Mun0JX" target="_blank" title="This Is Going To Hurt">This Is Going To Hurt</a> with festive stories from his time working in hospitals. As with his first book, it is a quick and easy read with some funny, horrific and sad stories. It can probably be read in one sitting, and while still funny, it almost feels like it's full of leftover stories that didn't quite make the original book.
+
+##### <a href="https://amzn.to/39SCh03" target="_blank" title="Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon">Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon - Kim Zetter</a>
+###### Genre: Technology
+###### Rating: 8.5/10
+I first heard about Stuxnet when listening to the brilliant <a href="https://darknetdiaries.com/" target="_blank" title="Dark Net Diaries">Dark Net Diaries</a> podcast, which has an episode that covers Stuxnet at a high-level. I assumed that Kim Zetter's book on the subject would simply talk through the Stuxnet attack but reviews so much more than that, including covering the Iranian nuclear program in-depth and how global agencies were viewing it. The book covers a number of zero-day exploits that were found around that time and goes into detail about these along with Stuxnet, which as someone interested in this sort of thing, I found highly engrossing and would definitely recommend.
+
+##### <a href="https://amzn.to/36MTGFo" target="_blank" title="No One Is Too Small to Make a Difference">No One Is Too Small to Make a Difference - Greta Thunberg</a>
+###### Genre: Politics & Government
+###### Rating: 6/10
+I am a huge fan of Greta Thunberg and the work that she has been doing to highlight the need for action against the climate crisis. I wasn't entirely aware of the contents of the book before reading so had not realised that it was merely a collection of the speeches that she has given. This left me slightly disappointed as the speeches themselves are, obviously, on a very similar topic and quite repetitive to read, but that being said, are fantastic and inspiring. This can sit in the category of books that you pick up off the shelf when needing a bit of motivation or a quick win, similar to <a href="https://amzn.to/2N2k1rL" target="_blank" title="One Plus One Equals Three">One Plus One Equals Three</a>.
+
+##### <a href="https://amzn.to/2YP2Tsm" target="_blank" title="The Power of the Dog">The Power of the Dog - Don Winslow</a>
+###### Genre: Thrillers
+###### Rating: 8/10
+I was recommended Don Winslow's drug-cartel thriller by the same person who recommended <a href="https://amzn.to/3jo1DG1" target="_blank" title="I Am Pilgrim">I Am Pilgrim</a> by Terry Hayes (side note: we're still waiting for the follow-up to that). <a href="https://amzn.to/2YP2Tsm" target="_blank" title="The Power of the Dog">The Power of the Dog</a> is a thrilling story about the US Government's fight against Mexican drug cartels, and similar to <a href="https://amzn.to/3jo1DG1" target="_blank" title="I Am Pilgrim">I Am Pilgrim</a>, weaves multiple stories into one. Really well written and dramatic, it's a long read, but I would highly recommend sticking with it.
+
+##### <a href="https://amzn.to/3twn64k" target="_blank" title="The Quality of Madness: A Life of Marcelo Bielsa">The Quality of Madness: A Life of Marcelo Bielsa – Tim Rich</a>
+###### Genre: Sport
+###### Rating: 8/10
+A book about the genius that is Marcelo Bielsa? Of course, I'm going to purchase it and read it in full the day it is released! Tim Rich takes a comprehensive look into the life and career of the man nicknamed "El Loco", featuring some of his infamous stories and interviews with players and coaches who have been in close contact with him throughout his career. It is highly unlikely that a book will ever feature input from Bielsa himself, but this is probably the closest one is likely to get to seeing inside the mind of one of football's most intriguing characters. A minor disappointment is that this was finished midway through the 2019/20 season, with Leeds on course for promotion; a few months wait would have left it with a much happier ending!
+
+##### <a href="https://amzn.to/3aHDFl6" target="_blank" title="Start With Why: How Great Leaders Inspire Everyone To Take Action">Start With Why: How Great Leaders Inspire Everyone To Take Action - Simon Sinek</a>
+###### Genre: Management & Leadership
+###### Rating: 7/10
+Simon Sinek's look into how to inspire others is often on the list of recommended read for managers and has kept its place on those lists despite now being released a decade ago. The fundamental takeaway message intended from the book is to, you'll never guess, start your thinking by asking why you are doing things. It is a useful read and some good ideas included, but does get quite repetitive after a while and also feels like it doesn't touch on enough personal experiences. Also, if you are not a fan of Apple then you will probably hate this book as there is a lot of Apple worshipping throughout.
+
+##### <a href="https://amzn.to/39SJihm" target="_blank" title="Deep Work: Rules for Focused Success in a Distracted World">Deep Work: Rules for Focused Success in a Distracted World - Cal Newport</a>
+###### Genre: Management & Leadership
+###### Rating: 6/10
+I started looking for books on focus and productivity a few months into the U.K.'s lockdown as, like many, I found myself easily distracted and struggling to blur the lines between work and home. Cal Newport's book touches on some interesting points and techniques that can be used to free yourself from distractions and allow additional focus, but nothing extraordinary that you can't find yourself by doing a bit of light reading online. It does also feel a little bit out-of-touch from regular day-to-day office environments and if anything, feels like it is more suited to academics and researchers.
+
+##### <a href="https://amzn.to/2N3xv6A" target="_blank" title="No Filter: The Inside Story of Instagram">No Filter: The Inside Story of Instagram - Sarah Frier</a>
+###### Genre: Business
+###### Rating: 7/10
+Sarah Frier brilliantly chronicles the growth of <a href="https://www.instagram.com/" target="_blank" title="Instagram">Instagram</a>; from its humble beginnings through to being bought by <a href="https://www.facebook.com/" target="_blank" title="Facebook">Facebook</a> for $1 billion, despite only having 13 employees, and beyond as they tried to maintain a separate focus from Mark Zuckerberg and the growth-at-all-costs mindset of <a href="https://www.facebook.com/" target="_blank" title="Facebook">Facebook</a>. It is an absorbing look not just into Instagram itself, but the mindset of Silicon Valley including Zuckerberg and Twitter's Jack Dorsey, although the former is not painted in the best light due to his apparent jealousy of Instagram's success. A good read for anyone interested in growth stories of tech firms, full of incidents you may have forgotten about, and plenty that you will not have heard about.
+
+##### <a href="https://amzn.to/39USmlT" target="_blank" title="The Cartel">The Cartel - Don Winslow</a>
+###### Genre: Thrillers
+###### Rating: 6/10
+Having really enjoyed Don Winslow's <a href="https://amzn.to/2YP2Tsm" target="_blank" title="The Power of the Dog">The Power of the Dog</a>, it felt right to read the second part of the cartel trilogy. <a href="https://amzn.to/39USmlT" target="_blank" title="The Cartel">The Cartel</a> follows on from the ending of the previous book and whilst it's hard to say too much without giving away the story of <a href="https://amzn.to/2YP2Tsm" target="_blank" title="The Power of the Dog">The Power of the Dog</a>, it does feel like the story simply could have ended at the culmination of the first instalment. There are still plenty of dramatic moments and a good, not great, storyline that will keep you reading. It is another very long read so you will need to stick with it, and the ending feels rather rushed. All-in-all, a good follow up, but nowhere near the quality of the first in the series.
+
+##### <a href="https://amzn.to/2Z2EMGV" target="_blank" title="The Laundromat: Inside the Panama Papers Investigation of Illicit Money Networks and the Global Elite">The Laundromat: Inside the Panama Papers Investigation of Illicit Money Networks and the Global Elite - Jake Bernstein</a>
+###### Genre: Finance
+###### Rating: 7/10
+This was another read that had been on my list for a while, but I only got around to reading it after stumbling across, and watching, The Laundromat, on <a href="https://www.netflix.com/title/80994011" target="_blank" title="The Laundromat - Netflix">Netflix</a>, which is based on this book (Bernstein's book was originally called Secrecy World but has since been renamed, one would assume due to the popularity of the <a href="https://www.netflix.com/title/80994011" target="_blank" title="The Laundromat - Netflix">Netflix film</a>. Bernstein documents the story around the Panama Papers, focussing mainly on Mossack Fonseca, the Panamanian law firm whose leaked documents led to the off-shore interests of thousands, including celebrities and politicians, becoming public knowledge. The book does a great job at detailing the investigative journalism involved in the publicising of these papers, along with asking relevant questions about what this means for wider society and the future of finance. 
+
+##### <a href="https://amzn.to/2N0BalE" target="_blank" title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses">The Lean Startup: How Constant Innovation Creates Radically Successful Businesses – Eric Ries</a>
+###### Genre: Business
+###### Rating: 6/10
+For anyone who has worked in a start-up or growing company at any time in their career, there will be a lot in this book that you will be able to relate to. Ries goes over some thought-provoking examples of where businesses have succeeded in innovating and why that was the case, along with regularly leaning on Toyota's use of "lean manufacturing", a topic worth reading about on its own. There are some good points made throughout the book, although it is preached a little bit as a science of "follow these steps and your business will be successful". However, some useful takeaways for anyone looking to improve themselves, their team or their company.
+
+##### <a href="https://amzn.to/2MuDLET" target="_blank" title="The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power">The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power - Shoshana Zuboff</a>
+###### Genre: Technology
+###### Rating: 7/10
+I was recommended this book by my brother-in-law. Data is a well-voiced topic, particularly considering the recent battles regarding Apple and Facebook and this is a central focus in this book. Zuboff writes about how the use of data has developed over time along with its evolution into the most prominent element in contemporary life; however, discovers throughout the book the misuse and manipulation of data. Zuboff's apocalyptic take on how our data is used against us can be daunting throughout, but it is well worth the impending "why is the world like this" crisis you will experience. 
+
+##### <a href="https://amzn.to/2MXtTmX" target="_blank" title="Quiet Leadership: Winning Hearts, Minds and Matches">Quiet Leadership: Winning Hearts, Minds and Matches - Carlo Ancelotti</a>
+###### Genre: Sport, Management & Leadership
+###### Rating: 8/10
+I have always been an admirer of Carlo Ancelotti. He is a brilliant football manager who has won a lot in his managerial career across a number of countries. <a href="https://amzn.to/2MXtTmX" target="_blank" title="Quiet Leadership: Winning Hearts, Minds and Matches">Quiet Leadership</a> is a fantastic blend of stories from his footballing career both as a player and manager, mixed in with business and management guidance. The bridging between the two is really well done and makes this applicable to anyone interested in management or fostering a team environment. The book is also littered with short cameo chapters from players who have played under Ancelotti too which is a nice touch.
+
+##### <a href="https://amzn.to/2MXu6GL" target="_blank" title="How To: Absurd Scientific Advice for Common Real-World Problems">How To: Absurd Scientific Advice for Common Real-World Problems - Randall Munroe</a>
+###### Genre: Science
+###### Rating: 6/10
+The sequel to <a href="https://amzn.to/2YOL0dd" target="_blank" title="What If?: Serious Scientific Answers to Absurd Hypothetical Questions">'What If'</a>, (mentioned in my <a href="../blogs/a-year-in-books-2018" target="_blank" title="A Year In Books">2018 version of this article</a>) with the interest and humour but not quite the laugh-out-loud, absurd questions broached in its predecessor. Despite lacking this edge, Munroe again produces a series of wonderfully intriguing insights about science and the world, which can be dipped in and out of. One of those books that is perfect to be kept in the downstairs bathroom.
+
+##### <a href="https://amzn.to/3q0cxEE" target="_blank" title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones – James Clear</a>
+###### Genre: Management & Leadership
+###### Rating: 8/10
+As with most in the COVID-19 pandemic, I have struggled with productivity (as you can see from this blog coming out in February) and found this book to be a useful revision for some things I already knew but needed a slight reminder of. <a href="https://amzn.to/3q0cxEE" target="_blank" title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones">Atomic Habits</a> discusses the small changes you can make that have a large impact in your life. By making small steps, you suddenly appear in the right location a lot quicker. Bring a pen and paper with you as there is homework in the book!
+
+##### <a href="https://amzn.to/3cKpJtf" target="_blank" title="For the Record">For the Record – David Cameron</a>
+###### Genre: Politics & Government
+###### Rating: 9/10
+For the record, For the Record is a real 'through-the-keyhole' experience of David Cameron's time in office, portraying his successes while openly and willingly discussing his failures and shortcomings. It is an interesting reminder that even leaders of state are human-beings, with some funny stories of everyday human interactions with these very powerful people. If you're interested in the current political leaders then this is still a book for you; with honest and frank thoughts about some of the figures in power today and how they ended up where they are. Reading the chapter about the EU referendum was particularly painful to read; however, despite the sombre ending, this is still one of my top reads of the year.
+
+##### <a href="https://amzn.to/3q6mfoE" target="_blank" title="The Spider Network: The Wild Story of a Math Genius, a Gang of Backstabbing Bankers, and One of the Greatest Scams in Financial History">The Spider Network: The Wild Story of a Math Genius, a Gang of Backstabbing Bankers, and One of the Greatest Scams in Financial History - David Enrich</a>
+###### Genre: Business
+###### Rating: 9/10
+My final book of the year is also up there as one of my favourites. David Enrich thoroughly documents the LIBOR Scandal across the years, focussing a lot of the attention on Tom Hayes, the man at the centre of it all, who contributed a lot to the book. Enrich does a brilliant job of telling the story as if it were a novel, while explaining all of the financial matters throughout in an easy-to-follow fashion. Some of the stories and amounts involved will likely leave you open-mouthed, while if you are of the persuasion that bankers and greed are interlinked, this book is certainly likely to rile you up. A very enjoyable read to close out the year.

@@ -1,0 +1,6 @@
+<img src="/images/works/higher-oak.png" alt="Consultant at Higher Oak Consulting" width="100%">
+
+
+### Consultant at Higher Oak Consulting
+
+<a href="https://higheroak.com/" target="_blank" title="Higher Oak">Higher Oak</a> are a consultancy specialising in the <a href="https://www.medallia.com/" target="_blank" title="Medallia Experience Management Software Platform">Medallia Experience Management Software Platform</a>. I joined Higher Oak in October 2022 in a Consultancy role to share my expertise in the <a href="https://www.medallia.com/xchange/digital-experience-analytics/" target="_blank" title="Digital Experience Analytics (DXA)">Digital Experience Analytics (DXA)</a> platform - formerly known as Decibel - from both a sales and implementation perspective. The role has involved leading implementation and consultancy projects for a number of clients, along with building implementation processes and best practices for the rest of the Higher Oak team to upskill and lead <a href="https://www.medallia.com/xchange/digital-experience-analytics/" target="_blank" title="Digital Experience Analytics (DXA)">DXA</a> implementations.

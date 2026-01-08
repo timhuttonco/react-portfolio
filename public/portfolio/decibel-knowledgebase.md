@@ -1,0 +1,18 @@
+<img src="/images/works/decibel-knowledgebase.jpg" alt="Decibel Knowledgebase" width="100%">
+
+
+### Decibel Knowledgebase
+
+During my time at Customer Experience Analytics platform <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel">Decibel</a>, my role often required communicating with and helping clients to implement Decibel on their website, as well as providing support to clients on how to use the platform and get the most out of their data.
+
+I was also involved in creating technical documentation, such as the Decibel Implementation Guide</a>, along with integration guides for setting up our integrations with <a href="https://knowledgebase.decibelinsight.com/articles/641-adobe-analytics" target="_blank" title="Decibel Insight Adobe Analytics">Adobe Analytics</a> and <a href="https://knowledgebase.decibelinsight.com/articles/642-google-analytics" target="_blank" title="Decibel Insight Google Analytics Integration">Google Analytics</a> to name a few.
+
+Having worked with clients such as <a href="http://www.britishairways.com/" target="_blank" title="British Airways">British Airways</a>, <a href="http://ee.co.uk/" target="_blank" title="EE">EE</a>, <a href="http://uk.virginmoney.com/virgin/" target="_blank" title="Virgin Money">Virgin Money</a>, <a href="http://www.gm.com/index.html" target="_blank" title="General Motors">General Motors</a> and others, it became evident quite quickly that there needed to be a centralised hub for all of these guides, as well as information on using the Decibel platform, which is where the idea for a <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowlegebase</a> came from.
+
+I was required to create all of the content that would be present on the <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowledgebase</a>, from simple descriptions of features and metrics, to detailed step-by-step guides on how to set up parts of the platform, such as creating funnels and segments.
+
+Users can find detailed, visual guides - as well as a number of FAQs - on everything from initial implementation of <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel">Decibel</a> and integrations with other tools, to setting up custom dimensions and getting the most out of form analytics, as well as detailed code examples for a number of implentation tasks.
+
+The creation of this also provided a decrease in the number of general assistance <a href="../portfolio/decibel-support" title="Decibel Support Processes" target="_blank">support tickets</a> as users were able to simply find answers to their questions within the documentation, while the support team were often able to use knowledgebase articles in ticket responses to provide additional information to users. The support workflow was expanded to ensure that regular ticket responses were created as knowledgebase articles, along with updating documentation at the close of a ticket based on outcomes.
+
+You can find links to the <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">Knowledgebase</a> from inside the <a href="http://app.decibelinsight.com/" target="_blank" title="Decibel app">Decibel</a> portal and also in the footer of the <a href="https://www.decibelinsight.com/" target="_blank" title="Decibel Insight">website</a>. To visit the knowledgebase, click <a href="https://knowledgebase.decibelinsight.com/" target="_blank" title="Decibel Insight Knowledgebase">here</a>.

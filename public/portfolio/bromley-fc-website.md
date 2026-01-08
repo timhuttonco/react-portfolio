@@ -1,0 +1,12 @@
+<img src="/images/works/bromley-fc-website.jpg" alt="Bromley Football Club Website" width="100%">
+
+
+### Bromley Football Club Website
+
+Responsive website built for <a href="http://www.footballconference.co.uk/southdivision.php?division_id=21" target="_blank" title="Vanarama Conference South">Vanarama Conference South</a> football club <a href="http://www.bromleyfc.tv" target="_blank" title="Bromley Football Club">Bromley</a> during my time there as Media &amp; Communications Editor.
+
+One of my first tasks upon arrival was to build a new website to update, redesign and replace the club's current site which has originally been built using Content Management System <a href="http://www.joomla.org/" target="_blank" title="Joomla">Joomla</a>. I stuck with <a href="http://www.joomla.org/" target="_blank" title="Joomla">Joomla</a> when building this site as it meant previous articles and content could easily be migrated to the new website, while others responsible for updating the website were also experienced in using Joomla, making it a straightforward decision to continue using the existing Content Management System, albeit with an updated version.
+
+One of my main aims when building this website was to target mobile users due to the increasing amount of traffic coming to the site by mobile, as well as a tendency for most supporters to visit the club's site on their mobile when at the club on a match day. The club's previous site was not responsive, therefore there was a lot of pinching to be done when reading news articles, viewing fixtures etc. so when designing, I ensured that the new site was fully responsive across desktop, tablet and mobile. 
+
+The site includes all of the club's latest news, a front-page slider, responsive menu, interactive modules, fixtures and results, player profiles and more about the club, the stadium and the newly-rebranded <a href="../portfolio/bromley-arena" target="_blank" title="Bromley Arena">Bromley Arena</a>. With an increasing supporter size, it was important to maximise readership with regular and relevant content, while also ensuring the website had relevant advertising opportunities throughout, and this was factored into the design both on desktop and mobile.

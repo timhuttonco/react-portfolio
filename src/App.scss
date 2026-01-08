@@ -1,0 +1,20 @@
+@use "./sass/mixins" as *;
+@use './sass/style' as *;
+
+// Fix for Blog page visibility issues
+.blog-page-section {
+  .col-md-6 {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  // Ensure AOS can still do its job if it's active
+  [data-aos] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    
+    &.aos-animate {
+      opacity: 1 !important;
+    }
+  }
+}
