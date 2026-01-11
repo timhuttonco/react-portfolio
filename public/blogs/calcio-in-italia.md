@@ -1,3 +1,9 @@
+---
+title: "Calcio In Italia - Travelling to Italy to watch football"
+description: "I recently had the privilege of ticking off an item from the bucket list and spent a weekend in Milan watching Serie A. I wanted to share my thoughts, tips, and learnings to help anyone thinking of travelling to Italy to watch football."
+image: "/images/blog/calcio-in-italia.png"
+---
+
 <img src="/images/blog/calcio-in-italia.png" alt="Calcio In Italia - Travelling from the UK to Italy to watch football: A Guide" width="100%">
 
 ### Calcio In Italia - Travelling from the UK to Italy to watch football: A Guide

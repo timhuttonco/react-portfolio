@@ -2,21 +2,37 @@ import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import axios from "axios";
+import matter from "gray-matter";
 import Header from "../components/layouts/Header";
 import { useParams } from "react-router-dom";
 import { Helmet } from 'react-helmet-async';
 
 function BlogDetails(props) {
-  const [content, setContent] = useState("");
+  // store both the raw markdown content and the parsed frontmatter data
+  const [post, setPost] = useState({ content: "", data: {} });
   const [loading, setLoading] = useState(true);
   const { title } = useParams(); 
-  const blogFile = title;
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  // Helper to extract a plain text description from Markdown
+  // domain for absolute image paths
+  const siteUrl = "https://timhutton.co"; 
+
+  /**
+   * FALLBACK HELPERS
+   * These are used only if the Frontmatter (gray-matter) block is missing data.
+   */
+  const getFirstImage = (mdContent) => {
+    if (!mdContent) return null;
+    const match = mdContent.match(/!\[.*?\]\((.*?)\)/);
+    if (match && match[1]) {
+      const imgPath = match[1];
+      return imgPath.startsWith('http') ? imgPath : `${siteUrl}${imgPath}`;
+    }
+    return null;
+  };
+
   const getExcerpt = (mdContent) => {
     if (!mdContent) return "";
-    // Remove Markdown symbols and take the first 160 characters
     return mdContent
       .replace(/[#*`_]/g, "") 
       .replace(/\[.*\]\(.*\)/g, "")
@@ -25,45 +41,58 @@ function BlogDetails(props) {
 
   useEffect(() => {
     setLoading(true);
-    const cleanFileName = blogFile.replace(/^\//, "").replace(/\.md$/, "");
+    const cleanFileName = title.replace(/^\//, "").replace(/\.md$/, "");
+    
     axios.get(`/blogs/${cleanFileName}.md`)
       .then((result) => {
-        setContent(result.data);
+        // Parse the markdown string into { data, content }
+        const parsed = matter(result.data);
+        setPost(parsed);
         setLoading(false);
       })
       .catch((err) => {
         console.error("Fetch error at:", `/blogs/${cleanFileName}.md`, err);
         setLoading(false);
       });
-  }, [blogFile]);
+  }, [title]);
 
   const headerToggler = (e) => {
     e.preventDefault();
     setToggleMenu(!toggleMenu);
   };
 
-  // Format the title for the browser tab (e.g., "my-blog-post" -> "My Blog Post")
-  const displayTitle = title ? title.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()) : "Blog Details";
+  /**
+   * METADATA LOGIC
+   * Priority: 1. Frontmatter Data -> 2. Scraped/Generated Data -> 3. Hardcoded Default
+   */
+  const displayTitle = post.data.title || title.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const description = post.data.description || getExcerpt(post.content) || "Read more at timhutton.co";
+  
+  // Handle Preview Image
+  const rawImage = post.data.image || getFirstImage(post.content);
+  const finalPreviewImage = rawImage 
+    ? (rawImage.startsWith('http') ? rawImage : `${siteUrl}${rawImage}`)
+    : `${siteUrl}/images/logo3.png`;
 
   return (
     <>
       <Helmet>
         {/* Standard SEO */}
-        <title>{displayTitle} | Your Site Name</title>
-        <meta name="description" content={getExcerpt(content)} />
+        <title>{displayTitle} | Tim Hutton</title>
+        <meta name="description" content={description} />
 
         {/* Facebook / Open Graph */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={displayTitle} />
-        <meta property="og:description" content={getExcerpt(content)} />
+        <meta property="og:description" content={description} />
         <meta property="og:url" content={window.location.href} />
-        {/* Note: You might want a default og:image if your MD doesn't have one */}
-        <meta property="og:image" content="https://yourdomain.com/images/blog-share-default.jpg" />
+        <meta property="og:image" content={finalPreviewImage} />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={displayTitle} />
-        <meta name="twitter:description" content={getExcerpt(content)} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={finalPreviewImage} />
       </Helmet>
 
       <Header
@@ -71,16 +100,20 @@ function BlogDetails(props) {
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}
       />
+
       <main className={toggleMenu ? "content open" : "content"}>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
           <div className="container">
             {loading ? (
-              <div className="text-center">Loading...</div>
+              <div className="text-center">
+                <div className="spacer" data-height="100"></div>
+                <p>Loading post...</p>
+              </div>
             ) : (
               <div className="blog-single shadow-dark p-30">
                 <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-                  {content}
+                  {post.content}
                 </ReactMarkdown>
               </div>
             )}
