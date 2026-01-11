@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"; // Fixed: removed { React } and used import React
 import AOS from 'aos';
+import { HelmetProvider } from 'react-helmet-async';
 import 'aos/dist/aos.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
@@ -25,6 +26,7 @@ function App() {
   }, []);
 
   return (
+    <HelmetProvider>
     <BrowserRouter history={history}>
       <ScrollIntoView>
         <Routes>
@@ -37,6 +39,7 @@ function App() {
         <ScrollToTop />
       </ScrollIntoView>
     </BrowserRouter>
+    </HelmetProvider>
   );
 }
 
