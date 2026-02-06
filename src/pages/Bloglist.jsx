@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 32,
+    title: "A Year In Books - 2025",
+    image: "/images/blog/a-year-in-books-2025-small.png",
+    filesource: "/blogs/a-year-in-books-2025.md",
+    date: "February 6, 2026",
+    category: "Books",
+  },{
     id: 31,
     title: "Calcio In Italia - Travelling from the UK to Italy to watch football: A Guide",
     image: "/images/blog/calcio-in-italia.png",

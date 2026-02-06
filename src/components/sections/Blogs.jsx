@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 32,
+    title: "A Year In Books - 2025",
+    image: "/images/blog/a-year-in-books-2025-small.png",
+    filesource: "/blogs/a-year-in-books-2025.md",
+    date: "February 6, 2026",
+    category: "Books",
+  },{
     id: 31,
     title: "Calcio In Italia - Travelling from the UK to Italy to watch football: A Guide",
     image: "/images/blog/calcio-in-italia.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     filesource: "../blogs/a-year-in-books-2024.md",
     date: "January 7, 2025",
     category: "Books",
-  },{
-    id: 29,
-    title: "Using Proxyman to Debug App Analytics",
-    image: "/images/blog/proxyman.png",
-    filesource: "../blogs/proxyman.md",
-    date: "November 14, 2024",
-    category: "Tech, Analytics",
   },
 ];
 
