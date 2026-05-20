@@ -6,25 +6,25 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 34,
+    title: "Updating Google Tag Manager Server Side Tagging Servers",
+    image: "/images/blog/google-tag-manager-cloud-run.png",
+    filesource: "../updating-sgtm-tagging-server-version.md",
+    date: "May 20, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 33,
+    title: "Deploying Websites Using Firebase",
+    image: "/images/blog/firebase-web.png",
+    filesource: "/blogs/deploying-firebase-websites.md",
+    date: "February 16, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 32,
     title: "A Year In Books - 2025",
     image: "/images/blog/a-year-in-books-2025-small.png",
     filesource: "/blogs/a-year-in-books-2025.md",
     date: "February 6, 2026",
-    category: "Books",
-  },{
-    id: 31,
-    title: "Calcio In Italia - Travelling from the UK to Italy to watch football: A Guide",
-    image: "/images/blog/calcio-in-italia.png",
-    filesource: "../calcio-in-italia.md",
-    date: "July 23, 2025",
-    category: "Sport, Travel",
-  },{
-    id: 30,
-    title: "A Year In Books - 2024",
-    image: "/images/blog/a-year-in-books-2024.png",
-    filesource: "../blogs/a-year-in-books-2024.md",
-    date: "January 7, 2025",
     category: "Books",
   },
 ];
