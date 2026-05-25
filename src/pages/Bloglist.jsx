@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 35,
+    title: "Automate Server-Side Google Tag Manager Updates on Cloud Run",
+    image: "/images/blog/google-tag-manager-cloud-run.png",
+    filesource: "/blogs/automate-sgtm-cloud-run-updates.md",
+    date: "May 25, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 34,
     title: "Updating Google Tag Manager Server Side Tagging Servers",
     image: "/images/blog/google-tag-manager-cloud-run.png",

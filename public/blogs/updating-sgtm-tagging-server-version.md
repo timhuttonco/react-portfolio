@@ -39,6 +39,4 @@ The best way to confirm that this update has worked immediately is to restart yo
 
 <img src="/images/blog/sgtm-server-version-update5.png" alt="Updating Google Tag Manager Server Side Tagging Servers" width="100%">
 
-Success! Hopefully you found the above useful - do not hesitate to reach out with any questions. I am also planning on sharing articles in the future about how to automatically be alerted to new versions, and how to auto-update.
-
-<a href="" target="_blank" title="">
+Success! Hopefully you found the above useful - do not hesitate to reach out with any questions. I have also written an article about <a href="/blogs/automate-sgtm-cloud-run-updates" target="_blank" title="Automate Server-Side Google Tag Manager Updates on Cloud Run">how to automatically be alerted to new versions, and how to auto-update</a>.
