@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 36,
+    title: "How to Secure Gemini API Keys in Google Cloud & Firebase",
+    image: "/images/blog/securing-gemini-api-keys-in-firebase.png",
+    filesource: "/blogs/securing-gemini-api-keys-in-firebase.md",
+    date: "May 27, 2026",
+    category: "Tech, AI",
+  },{
     id: 35,
     title: "Automate Server-Side Google Tag Manager Updates on Cloud Run",
     image: "/images/blog/google-tag-manager-cloud-run.png",

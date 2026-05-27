@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 36,
+    title: "How to Secure Gemini API Keys in Google Cloud & Firebase",
+    image: "/images/blog/securing-gemini-api-keys-in-firebase.png",
+    filesource: "/blogs/securing-gemini-api-keys-in-firebase.md",
+    date: "May 27, 2026",
+    category: "Tech, AI",
+  },{
     id: 35,
     title: "Automate Server-Side Google Tag Manager Updates on Cloud Run",
     image: "/images/blog/google-tag-manager-cloud-run.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     image: "/images/blog/google-tag-manager-cloud-run.png",
     filesource: "../updating-sgtm-tagging-server-version.md",
     date: "May 20, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 33,
-    title: "Deploying Websites Using Firebase",
-    image: "/images/blog/firebase-web.png",
-    filesource: "/blogs/deploying-firebase-websites.md",
-    date: "February 16, 2026",
     category: "Tech, Analytics",
   },
 ];
