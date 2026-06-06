@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 37,
+    title: "How to Deploy a Firebase Website as an App on Your iPhone",
+    image: "/images/blog/firebase-web.png",
+    filesource: "/blogs/firebase-pwa-iphone.md",
+    date: "June 6, 2026",
+    category: "Tech",
+  },{
     id: 36,
     title: "How to Secure Gemini API Keys in Google Cloud & Firebase",
     image: "/images/blog/securing-gemini-api-keys-in-firebase.png",

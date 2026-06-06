@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 37,
+    title: "How to Deploy a Firebase Website as an App on Your iPhone",
+    image: "/images/blog/firebase-web.png",
+    filesource: "/blogs/firebase-pwa-iphone.md",
+    date: "June 6, 2026",
+    category: "Tech",
+  },{
     id: 36,
     title: "How to Secure Gemini API Keys in Google Cloud & Firebase",
     image: "/images/blog/securing-gemini-api-keys-in-firebase.png",
@@ -18,14 +25,6 @@ const allBlogs = [
     image: "/images/blog/google-tag-manager-cloud-run.png",
     filesource: "/blogs/automate-sgtm-cloud-run-updates.md",
     date: "May 25, 2026",
-    category: "Tech, Analytics",
-  },
-  {
-    id: 34,
-    title: "Updating Google Tag Manager Server Side Tagging Servers",
-    image: "/images/blog/google-tag-manager-cloud-run.png",
-    filesource: "../updating-sgtm-tagging-server-version.md",
-    date: "May 20, 2026",
     category: "Tech, Analytics",
   },
 ];
