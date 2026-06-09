@@ -6,6 +6,12 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allWorks = [
   {
+    id: 28,
+        title: "Layer Lens — Chrome Extension",
+        image: "/images/works/layer-lens.png",
+        filesource: "../portfolio/layer-lens.md",
+        category: "Projects, Analytics",
+    },{
     id: 27,
         title: "The Good Growth Podcast",
         image: "/images/works/good-growth-podcast.png",
@@ -17,13 +23,7 @@ const allWorks = [
         image: "/images/works/ynap.png",
         filesource: "../portfolio/ynap-analytics-implementation.md",
         category: "Career",
-    },{
-      id: 25,
-          title: "Consultant at Higher Oak Consulting",
-          image: "/images/works/higher-oak.png",
-          filesource: "../portfolio/higher-oak-consulting.md",
-          category: "Career, Consulting",
-      },
+    },
 ];
 
 

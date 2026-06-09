@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 38,
+    title: "Introducing Layer Lens: Search Your GTM & GA4 Data in Real Time",
+    image: "/images/blog/layer-lens.png",
+    filesource: "/blogs/layer-lens-chrome-extension.md",
+    date: "June 8, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 37,
     title: "How to Deploy a Firebase Website as an App on Your iPhone",
     image: "/images/blog/firebase-web.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     filesource: "/blogs/securing-gemini-api-keys-in-firebase.md",
     date: "May 27, 2026",
     category: "Tech, AI",
-  },{
-    id: 35,
-    title: "Automate Server-Side Google Tag Manager Updates on Cloud Run",
-    image: "/images/blog/google-tag-manager-cloud-run.png",
-    filesource: "/blogs/automate-sgtm-cloud-run-updates.md",
-    date: "May 25, 2026",
-    category: "Tech, Analytics",
   },
 ];
 

@@ -11,6 +11,12 @@ import Pagination from "../components/elements/Pagination";
 
 const allWorks = [
   {
+    id: 28,
+        title: "Layer Lens — Chrome Extension",
+        image: "/images/works/layer-lens.png",
+        filesource: "../portfolio/layer-lens.md",
+        category: "Projects, Analytics",
+    },{
     id: 27,
         title: "The Good Growth Podcast",
         image: "/images/works/good-growth-podcast.png",
