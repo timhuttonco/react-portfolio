@@ -17,6 +17,12 @@ const allWorks = [
         filesource: "../portfolio/layer-lens.md",
         category: "Projects, Analytics",
     },{
+    id: 29,
+        title: "World Cup Sweepstake Generator",
+        image: "/images/works/world-cup-sweepstake.png",
+        filesource: "../portfolio/world-cup-sweepstake.md",
+        category: "Projects",
+    },{
     id: 27,
         title: "The Good Growth Podcast",
         image: "/images/works/good-growth-podcast.png",

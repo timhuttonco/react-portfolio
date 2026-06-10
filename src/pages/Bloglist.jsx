@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 39,
+    title: "World Cup Sweepstake Generator",
+    image: "/images/blog/world-cup-sweepstake.png",
+    filesource: "/blogs/world-cup-sweepstake.md",
+    date: "June 10, 2026",
+    category: "Tech, Projects",
+  },{
     id: 38,
     title: "Introducing Layer Lens: Search Your GTM & GA4 Data in Real Time",
     image: "/images/blog/layer-lens.png",

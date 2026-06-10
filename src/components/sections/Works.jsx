@@ -12,17 +12,17 @@ const allWorks = [
         filesource: "../portfolio/layer-lens.md",
         category: "Projects, Analytics",
     },{
+    id: 29,
+        title: "World Cup Sweepstake Generator",
+        image: "/images/works/world-cup-sweepstake.png",
+        filesource: "../portfolio/world-cup-sweepstake.md",
+        category: "Projects",
+    },{
     id: 27,
         title: "The Good Growth Podcast",
         image: "/images/works/good-growth-podcast.png",
         filesource: "../portfolio/good-growth-podcast.md",
         category: "Podcasts",
-    },{
-    id: 26,
-        title: "Senior Analytics Implementation Manager at YOOX Net-A-Porter",
-        image: "/images/works/ynap.png",
-        filesource: "../portfolio/ynap-analytics-implementation.md",
-        category: "Career",
     },
 ];
 

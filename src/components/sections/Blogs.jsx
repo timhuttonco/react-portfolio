@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 39,
+    title: "World Cup Sweepstake Generator",
+    image: "/images/blog/world-cup-sweepstake.png",
+    filesource: "/blogs/world-cup-sweepstake.md",
+    date: "June 10, 2026",
+    category: "Tech, Projects",
+  },{
     id: 38,
     title: "Introducing Layer Lens: Search Your GTM & GA4 Data in Real Time",
     image: "/images/blog/layer-lens.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     filesource: "/blogs/firebase-pwa-iphone.md",
     date: "June 6, 2026",
     category: "Tech",
-  },{
-    id: 36,
-    title: "How to Secure Gemini API Keys in Google Cloud & Firebase",
-    image: "/images/blog/securing-gemini-api-keys-in-firebase.png",
-    filesource: "/blogs/securing-gemini-api-keys-in-firebase.md",
-    date: "May 27, 2026",
-    category: "Tech, AI",
   },
 ];
 
