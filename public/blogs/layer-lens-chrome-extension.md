@@ -48,6 +48,6 @@ The GA4 ecommerce decoding came from real pain on a large-scale implementation. 
 
 #### Installing Layer Lens
 
-
+The extension code can be found on Github <a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">here</a>.
 
 Once installed, navigate to any page you want to inspect, click the icon, type a search term, and press Enter. That is all there is to it.

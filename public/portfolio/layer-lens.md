@@ -3,7 +3,9 @@
 
 ### Layer Lens — Chrome Extension
 
-<a href="https://github.com/timhutton" target="_blank" title="Layer Lens on GitHub">Layer Lens</a> is a Chrome extension for searching GTM <code>dataLayer</code> pushes and GA4 network hits on any website in real time. Type any value — a product ID, event name, user property, EAN — and it finds exactly where that value appears in the tracking layer and Google Analytics requests, showing the parameter path and matched value in a clean popup UI.
+<a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">Layer Lens</a> is a Chrome extension for searching GTM <code>dataLayer</code> pushes and GA4 network hits on any website in real time. Type any value — a product ID, event name, user property, EAN — and it finds exactly where that value appears in the tracking layer and Google Analytics requests, showing the parameter path and matched value in a clean popup UI.
+
+The extension code can be found on Github <a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">here</a>.
 
 #### The Problem
 
