@@ -8,9 +8,9 @@ image: "/images/blog/layer-lens.png"
 
 ### Introducing Layer Lens: Search Your GTM & GA4 Data in Real Time
 
-If you work in analytics, you will know the routine. A new requirement comes in and you need to verify if that data is tracked and where you can find it in Google Analytics. You open DevTools, switch to the Network tab, filter by `collect`, wait for the right event to fire, find the hit buried in a wall of query string parameters, and then try to read a tilde-delimited compact item string that GA4 sends for ecommerce events. It works, but it is slow and fiddly — especially when you are checking multiple products, doing QA across a large ecommerce site, or trying to quickly verify a specific value like a product ID or user property.
+If you work in analytics, you will know the routine. A new requirement comes in and you need to verify if that data is tracked and where you can find it in <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" title="Google Analytics">Google Analytics</a>. You open <a href="https://developer.chrome.com/docs/devtools/" target="_blank" title="Chrome DevTools">DevTools</a>, switch to the Network tab, filter by `collect`, wait for the right event to fire, find the hit buried in a wall of query string parameters, and then try to read a tilde-delimited compact item string that <a href="https://support.google.com/analytics/answer/10089681" target="_blank" title="Google Analytics 4">GA4</a> sends for ecommerce events. It works, but it is slow and fiddly — especially when you are checking multiple products, doing QA across a large ecommerce site, or trying to quickly verify a specific value like a product ID or user property.
 
-I built <strong>Layer Lens</strong> to fix that. It is a Chrome extension that captures GTM <code>dataLayer</code> pushes and GA4 network hits in real time and lets you search across everything with a single term. Type a product name, an EAN, an event name, a user ID — anything — and it finds it instantly, showing you the exact parameter path and value where it matched.
+I built <a href="https://chromewebstore.google.com/detail/layer-lens/fhmgghjjjfminjjobiibekgcnhggnpmb?authuser=0&hl=en" target="_blank" title="Layer Lens - Chrome Extensions">Layer Lens</a> to fix that. It is a <a href="https://developer.chrome.com/docs/extensions/" target="_blank" title="Chrome Extensions">Chrome extension</a> that captures <a href="https://marketingplatform.google.com/about/tag-manager/" target="_blank" title="Google Tag Manager">GTM</a> <a href="https://developers.google.com/tag-platform/tag-manager/datalayer" target="_blank" title="GTM dataLayer">dataLayer</a> pushes and GA4 network hits in real time and lets you search across everything with a single term. Type a product name, an EAN, an event name, a user ID — anything — and it finds it instantly, showing you the exact parameter path and value where it matched.
 
 #### What Layer Lens Does
 
@@ -20,7 +20,7 @@ I built <strong>Layer Lens</strong> to fix that. It is a Chrome extension that c
 
 **GA4 ecommerce decoding:** GA4 sends ecommerce item data in a compact tilde-delimited format that is essentially unreadable raw — something like <code>pr1=id46376~nmJacket~brVERSACE~caClothing~pr5530~qt1</code>. Layer Lens decodes this automatically into full GA4 field names (<code>item_id</code>, <code>item_name</code>, <code>item_brand</code>, <code>item_category</code>, <code>price</code>, <code>quantity</code>) so results are readable without any manual translation.
 
-**Server-side GTM support:** Enterprise sites increasingly proxy GA4 hits through a first-party domain via server-side GTM rather than sending directly to <code>google-analytics.com</code>. Layer Lens catches those too — it detects GA4 hits by path pattern and payload fingerprint, not just by domain.
+**Server-side GTM support:** Enterprise sites increasingly proxy GA4 hits through a first-party domain via <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" title="Server-side Google Tag Manager">server-side GTM</a> rather than sending directly to <code>google-analytics.com</code>. Layer Lens catches those too — it detects GA4 hits by path pattern and payload fingerprint, not just by domain.
 
 **Measurement ID display:** On pages running multiple GA4 properties, each GA4 result card shows the <code>G-XXXXXXXX</code> Measurement ID the hit was sent to, so you always know which property you are looking at.
 
@@ -40,14 +40,17 @@ I built <strong>Layer Lens</strong> to fix that. It is a Chrome extension that c
 
 #### Why I Built It
 
-The existing tools for analytics debugging — Tag Assistant, Omnibug, the GA4 DebugView — are all useful, but none of them answered the specific question I found myself being asked most often: *is this particular value in the data and where can I find it?* They show you everything that fired, which is great for auditing, but when you are QA-ing an implementation against a spec and want to know whether <code>item_id: "46376"</code> is present in the <code>purchase</code> event, you end up scanning manually through a lot of output.
+The existing tools for analytics debugging — <a href="https://tagassistant.google.com/" target="_blank" title="Google Tag Assistant">Tag Assistant</a>, <a href="https://omnibug.io/" target="_blank" title="Omnibug">Omnibug</a>, the <a href="https://support.google.com/analytics/answer/7201382" target="_blank" title="GA4 DebugView">GA4 DebugView</a> — are all useful, but none of them answered the specific question I found myself being asked most often: *is this particular value in the data and where can I find it?* They show you everything that fired, which is great for auditing, but when you are QA-ing an implementation against a spec and want to know whether <code>item_id: "46376"</code> is present in the <code>purchase</code> event, you end up scanning manually through a lot of output.
 
 The search-first approach came from watching the actual workflow: an analyst or developer has a specific value in mind — usually something visible on the page itself — and wants to confirm it is in the tracking layer. So the natural interaction is to select the value on the page and search for it, rather than scrolling through an event log. The hover-to-search tooltip and right-click integration came directly from that insight.
 
-The GA4 ecommerce decoding came from real pain on a large-scale implementation. Network-level GA4 hits use short codes to compress item parameters — <code>nm</code> for item name, <code>br</code> for brand, <code>pr</code> for price — and decoding them manually against the GA4 spec documentation every time you want to read a hit is genuinely tedious. Building the decoder into the extension means it is never something you have to think about again.
+The GA4 ecommerce decoding came from real pain on a large-scale implementation. Network-level GA4 hits use short codes to compress item parameters — <code>nm</code> for item name, <code>br</code> for brand, <code>pr</code> for price — and decoding them manually against the <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4/reference" target="_blank" title="GA4 Measurement Protocol reference">GA4 spec documentation</a> every time you want to read a hit is genuinely tedious. Building the decoder into the extension means it is never something you have to think about again.
 
 #### Installing Layer Lens
-
-The extension code can be found on Github <a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">here</a>.
+Layer Lens can be found in the Chrome Web Store <a href="https://chromewebstore.google.com/detail/layer-lens/fhmgghjjjfminjjobiibekgcnhggnpmb?authuser=0&hl=en" target="_blank" title="Layer Lens - Chrome Extensions">here</a>.
 
 Once installed, navigate to any page you want to inspect, click the icon, type a search term, and press Enter. That is all there is to it.
+
+The extension code can be found on Github <a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">here</a>. 
+
+I would love for you to try it out and share any feedback!

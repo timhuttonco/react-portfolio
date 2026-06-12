@@ -3,13 +3,13 @@
 
 ### Layer Lens — Chrome Extension
 
-<a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">Layer Lens</a> is a Chrome extension for searching GTM <code>dataLayer</code> pushes and GA4 network hits on any website in real time. Type any value — a product ID, event name, user property, EAN — and it finds exactly where that value appears in the tracking layer and Google Analytics requests, showing the parameter path and matched value in a clean popup UI.
+<a href="https://chromewebstore.google.com/detail/layer-lens/fhmgghjjjfminjjobiibekgcnhggnpmb?authuser=0&hl=en" target="_blank" title="Layer Lens - Chrome Extensions">Layer Lens</a> is a <a href="https://developer.chrome.com/docs/extensions/" target="_blank" title="Chrome Extensions">Chrome extension</a> for searching <a href="https://marketingplatform.google.com/about/tag-manager/" target="_blank" title="Google Tag Manager">GTM</a> <a href="https://developers.google.com/tag-platform/tag-manager/datalayer" target="_blank" title="GTM dataLayer"><code>dataLayer</code></a> pushes and <a href="https://support.google.com/analytics/answer/10089681" target="_blank" title="Google Analytics 4">GA4</a> network hits on any website in real time. Type any value — a product ID, event name, user property, EAN — and it finds exactly where that value appears in the tracking layer and Google Analytics requests, showing the parameter path and matched value in a clean popup UI.
 
 The extension code can be found on Github <a href="https://github.com/timhuttonco/LayerLens" target="_blank" title="Layer Lens on GitHub">here</a>.
 
 #### The Problem
 
-Analytics implementations can be hard to verify quickly - especially if all you want to do is understand where you can find a particular value. When a new data point is added, the standard approach is to open DevTools, go to the Network tab, filter by <code>collect</code>, and manually inspect individual requests. For GA4, this means decoding compact tilde-delimited item strings like <code>pr1=id46376~nmJacket~brVERSACE~caClothing~pr5530~qt1</code> by hand - an arduous task at the best of times.
+Analytics implementations can be hard to verify quickly - especially if all you want to do is understand where you can find a particular value. When a new data point is added, the standard approach is to open <a href="https://developer.chrome.com/docs/devtools/" target="_blank" title="Chrome DevTools">DevTools</a>, go to the Network tab, filter by <code>collect</code>, and manually inspect individual requests. For GA4, this means decoding compact tilde-delimited item strings like <code>pr1=id46376~nmJacket~brVERSACE~caClothing~pr5530~qt1</code> by hand - an arduous task at the best of times.
 
 The problem is not that the information is unavailable — it is that the workflow is slow, error-prone, and does not match the way people actually think about tracking. An analyst verifying a product page fires the right data has a specific value in mind (usually something visible on the page) and wants to know: *is this value in the data?* The DevTools workflow forces them to work the other way around — browse all the data and search for the value manually.
 
@@ -19,13 +19,13 @@ Layer Lens inverts that: search first, starting from the value you can see on th
 
 #### How It Works
 
-The extension is built entirely in vanilla JavaScript with no external dependencies, as a <strong>Manifest V3</strong> Chrome extension.
+The extension is built entirely in vanilla JavaScript with no external dependencies, as a <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3" target="_blank" title="Chrome Extension Manifest V3"><strong>Manifest V3</strong></a> Chrome extension.
 
 The core challenge in building a dataLayer/GA4 inspector is that Chrome extensions run in an isolated JavaScript world that cannot access a page's own <code>window</code> object. Intercepting <code>dataLayer.push()</code> requires code running in the <strong>MAIN world</strong> — the same execution context as the page itself. Layer Lens solves this with a two-script architecture:
 
 - **<code>injected.js</code> (MAIN world)** — runs at <code>document_start</code>, before any page scripts execute. It wraps five APIs: <code>window.dataLayer.push</code>, <code>window.gtag()</code>, <code>window.fetch</code>, <code>XMLHttpRequest.send</code>, and <code>navigator.sendBeacon</code>. All captured events are stored in memory arrays inside the page tab. Because it runs at document start, it also handles SPAs that reset <code>window.dataLayer</code> mid-session by intercepting future property assignments via <code>Object.defineProperty</code>.
 
-- **<code>content.js</code> (ISOLATED world)** — bridges the gap between the popup and <code>injected.js</code>. Because the two worlds share a DOM but not JavaScript variables, they communicate via <code>CustomEvent</code> dispatched on <code>window</code>. <code>content.js</code> also renders the in-page hover-to-search tooltip and listens to <code>chrome.storage.onChanged</code> to respond to the user toggling the tooltip preference in the popup.
+- **<code>content.js</code> (ISOLATED world)** — bridges the gap between the popup and <code>injected.js</code>. Because the two worlds share a DOM but not JavaScript variables, they communicate via <code>CustomEvent</code> dispatched on <code>window</code>. <code>content.js</code> also renders the in-page hover-to-search tooltip and listens to <a href="https://developer.chrome.com/docs/extensions/reference/api/storage" target="_blank" title="chrome.storage API"><code>chrome.storage.onChanged</code></a> to respond to the user toggling the tooltip preference in the popup.
 
 When the user searches, the message flow is: popup → <code>chrome.tabs.sendMessage</code> → <code>content.js</code> → <code>CustomEvent</code> → <code>injected.js</code> → recursive value search → <code>CustomEvent</code> response → <code>content.js</code> → popup render.
 
@@ -41,7 +41,7 @@ Layer Lens decodes both formats automatically using a short-code lookup table an
 
 #### Server-Side GTM Detection
 
-Standard GA4 hits go to <code>google-analytics.com/g/collect</code>. However, many sites proxy GA4 hits through a first-party domain via server-side GTM for privacy compliance and improved hit delivery. These hits look identical at the network level but arrive at a domain like <code>analytics.net-a-porter.com/g/collect</code> or <code>t.example.com/g/collect</code>.
+Standard GA4 hits go to <code>google-analytics.com/g/collect</code>. However, many sites proxy GA4 hits through a first-party domain via <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank" title="Server-side Google Tag Manager">server-side GTM</a> for privacy compliance and improved hit delivery. These hits look identical at the network level but arrive at a domain like <code>analytics.net-a-porter.com/g/collect</code> or <code>t.example.com/g/collect</code>.
 
 Layer Lens uses a three-tier detection strategy: first match by Google's own domain, then by the <code>/g/collect</code> path on any domain, then by GA4 payload fingerprint (<code>tid=G-</code> combined with <code>en=</code>). This means it catches GA4 hits reliably regardless of where the tagging server is hosted.
 
@@ -52,8 +52,8 @@ The extension requests only what it needs: <code>activeTab</code> and <code>scri
 #### Tech Stack
 
 - Vanilla JavaScript (ES2020) — no build step, no frameworks, no dependencies
-- Chrome Extension Manifest V3
+- <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3" target="_blank" title="Chrome Extension Manifest V3">Chrome Extension Manifest V3</a>
 - Two-world content script architecture (MAIN + ISOLATED)
-- <code>chrome.storage.local</code> for persistent preferences
-- <code>chrome.action.openPopup()</code> for programmatic popup triggering (requires Chrome 99+)
+- <a href="https://developer.chrome.com/docs/extensions/reference/api/storage" target="_blank" title="chrome.storage API"><code>chrome.storage.local</code></a> for persistent preferences
+- <a href="https://developer.chrome.com/docs/extensions/reference/api/action" target="_blank" title="chrome.action API"><code>chrome.action.openPopup()</code></a> for programmatic popup triggering (requires Chrome 99+)
 - HTML/CSS popup UI with collapsible result cards
