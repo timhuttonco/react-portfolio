@@ -12,17 +12,17 @@ const allWorks = [
         filesource: "../portfolio/layer-lens.md",
         category: "Projects, Analytics",
     },{
+    id: 30,
+        title: "Firebase Analytics Error Tracking Dashboard",
+        image: "/images/works/firebase-error-dashboard.png",
+        filesource: "../portfolio/firebase-error-dashboard.md",
+        category: "Projects, Analytics",
+    },{
     id: 29,
         title: "World Cup Sweepstake Generator",
         image: "/images/works/world-cup-sweepstake.png",
         filesource: "../portfolio/world-cup-sweepstake.md",
         category: "Projects",
-    },{
-    id: 27,
-        title: "The Good Growth Podcast",
-        image: "/images/works/good-growth-podcast.png",
-        filesource: "../portfolio/good-growth-podcast.md",
-        category: "Podcasts",
     },
 ];
 

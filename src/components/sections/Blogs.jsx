@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 40,
+    title: "Building a Firebase Analytics Error Tracking Dashboard",
+    image: "/images/blog/firebase-error-dashboard.png",
+    filesource: "/blogs/firebase-error-dashboard.md",
+    date: "June 15, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 39,
     title: "World Cup Sweepstake Generator",
     image: "/images/blog/world-cup-sweepstake.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     filesource: "/blogs/layer-lens-chrome-extension.md",
     date: "June 8, 2026",
     category: "Tech, Analytics",
-  },{
-    id: 37,
-    title: "How to Deploy a Firebase Website as an App on Your iPhone",
-    image: "/images/blog/firebase-web.png",
-    filesource: "/blogs/firebase-pwa-iphone.md",
-    date: "June 6, 2026",
-    category: "Tech",
   },
 ];
 

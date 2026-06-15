@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 40,
+    title: "Building a Firebase Analytics Error Tracking Dashboard",
+    image: "/images/blog/firebase-error-dashboard.png",
+    filesource: "/blogs/firebase-error-dashboard.md",
+    date: "June 15, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 39,
     title: "World Cup Sweepstake Generator",
     image: "/images/blog/world-cup-sweepstake.png",

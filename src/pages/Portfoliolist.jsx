@@ -11,6 +11,12 @@ import Pagination from "../components/elements/Pagination";
 
 const allWorks = [
   {
+    id: 30,
+        title: "Firebase Analytics Error Tracking Dashboard",
+        image: "/images/works/firebase-error-dashboard.png",
+        filesource: "../portfolio/firebase-error-dashboard.md",
+        category: "Projects, Analytics",
+    },{
     id: 28,
         title: "Layer Lens — Chrome Extension",
         image: "/images/works/layer-lens.png",

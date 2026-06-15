@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Herosection(props) {
@@ -29,18 +29,28 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Tim Hutton</h1>
           <p>
-          Product Manager - Tagging & Implementation at Kingfisher, Consultant and Mentor. Here's to something good.
+          Data Product Manager, Consultant and Mentor. Here's to something good.
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">
-          <li className="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://www.linkedin.com/in/timhuttonco" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin}/>
+                <FontAwesomeIcon icon={faLinkedin}/>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="https://www.instagram.com/timhuttonco/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon icon={faInstagram}/>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://github.com/timhuttonco" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub}/>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://timhuttonco.medium.com/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faMedium}/>
               </a>
             </li>
           </ul>
