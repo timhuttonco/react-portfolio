@@ -11,6 +11,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 41,
+    title: "Layer Lens v1.2: See Exactly Where Your Email Goes in Your Analytics Stack",
+    image: "/images/blog/layer-lens.png",
+    filesource: "/blogs/layer-lens-v1-2-email-check.md",
+    date: "July 8, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 40,
     title: "Building a Firebase Analytics Error Tracking Dashboard",
     image: "/images/blog/firebase-error-dashboard.png",

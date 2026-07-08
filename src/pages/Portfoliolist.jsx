@@ -11,10 +11,34 @@ import Pagination from "../components/elements/Pagination";
 
 const allWorks = [
   {
+    id: 34,
+        title: "Layer Lens v1.2 — Email Privacy Detection",
+        image: "/images/works/layer-lens.png",
+        filesource: "../portfolio/layer-lens-v1-2.md",
+        category: "Projects, Analytics",
+    },{
+    id: 32,
+        title: "Analytics & Tracking Setup — Hatchly",
+        image: "/images/works/hatchly.png",
+        filesource: "../portfolio/hatchly-analytics-setup.md",
+        category: "Consulting, Analytics",
+    },{
     id: 30,
         title: "Firebase Analytics Error Tracking Dashboard",
         image: "/images/works/firebase-error-dashboard.png",
         filesource: "../portfolio/firebase-error-dashboard.md",
+        category: "Projects, Analytics",
+    },{
+    id: 31,
+        title: "Analytics & Data Product Manager at Kingfisher",
+        image: "/images/works/kingfisher.png",
+        filesource: "../portfolio/kingfisher-product-manager.md",
+        category: "Career",
+    },{
+    id: 33,
+        title: "Automated Contract Usage Dashboard",
+        image: "/images/works/group-measurement-hub.png",
+        filesource: "../portfolio/automated-contract-usage-dashboard.md",
         category: "Projects, Analytics",
     },{
     id: 28,

@@ -55,7 +55,7 @@ const experienceData = [
   {
     id: 9,
     title: "Product Manager - Tagging & Implementation",
-    years: "February 2024 - Present",
+    years: "February 2024 - June 2026",
     content:
       "Kingfisher plc",
   },{

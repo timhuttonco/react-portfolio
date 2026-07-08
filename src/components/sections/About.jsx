@@ -6,7 +6,7 @@ const aboutContent = {
   name: "Tim Hutton",
   avatarImage: "/images/av-2.png",
   content:
-    "As a Tagging & Implementation Product Manager and Consultant, I have 10+ years of experience in building best-in-class analytics tracking and reporting across websites and apps. In an ever-changing privacy and technology landscape, I pride myself, and the teams I work with, on using and implementing future-proof solutions and technologies, always with user privacy in mind. With my extensive knowledge on both the client and vendor side of businesses, I can bring a strategic mindset to help the growth of businesses using data-driven decisioning.",
+    "Data Product leader with 10+ years of experience building analytics products at the intersection of engineering and commercial strategy. I own the full product lifecycle — from customer discovery and roadmap prioritisation through to launch and adoption — with a track record of turning complex data ecosystems into scalable, user-facing platforms that drive measurable business outcomes. Deep technical fluency across GA4, GCP, BigQuery, and Python, paired with a proven ability to translate data complexity into clear narratives that move C-suite and cross-functional teams to action. Specialist in attribution modelling, marketing analytics, data quality, and privacy-compliant data collection — equally comfortable in the weeds of an anomaly detection script and presenting measurement strategy to senior leadership.",
 };
 
 function About() {

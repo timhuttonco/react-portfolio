@@ -49,11 +49,16 @@ Layer Lens uses a three-tier detection strategy: first match by Google's own dom
 
 The extension requests only what it needs: <code>activeTab</code> and <code>scripting</code> for tab communication, <code>contextMenus</code> for the right-click search, <code>storage</code> to persist the last search and tooltip preference, and <code>&lt;all_urls&gt;</code> host permission to inject content scripts across all pages. No data is ever sent externally — all captured events live only in the tab's memory.
 
+#### Version 2 — Email Privacy Detection
+
+v1.2 added a dedicated Email tab to the popup for checking whether an email address appears in the tracking data as plain text or as a <a href="https://en.wikipedia.org/wiki/SHA-2" target="_blank" title="SHA-256">SHA-256</a> hash — covering the normalisation variants used by platforms like <a href="https://support.google.com/google-ads/answer/9888656" target="_blank" title="Google Enhanced Conversions">Google Enhanced Conversions</a> and the <a href="https://developers.facebook.com/docs/marketing-api/conversions-api/" target="_blank" title="Meta Conversions API">Meta Conversions API</a>. Full details on the v1.2 feature can be found in the <a href="../portfolio/layer-lens-v1-2" target="_blank" title="Layer Lens v1.2 — Email Privacy Detection">Layer Lens v1.2 portfolio entry</a>.
+
 #### Tech Stack
 
 - Vanilla JavaScript (ES2020) — no build step, no frameworks, no dependencies
 - <a href="https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3" target="_blank" title="Chrome Extension Manifest V3">Chrome Extension Manifest V3</a>
 - Two-world content script architecture (MAIN + ISOLATED)
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto" target="_blank" title="Web Crypto API">Web Crypto API</a> (<code>crypto.subtle.digest</code>) for in-browser SHA-256 hashing
 - <a href="https://developer.chrome.com/docs/extensions/reference/api/storage" target="_blank" title="chrome.storage API"><code>chrome.storage.local</code></a> for persistent preferences
 - <a href="https://developer.chrome.com/docs/extensions/reference/api/action" target="_blank" title="chrome.action API"><code>chrome.action.openPopup()</code></a> for programmatic popup triggering (requires Chrome 99+)
 - HTML/CSS popup UI with collapsible result cards

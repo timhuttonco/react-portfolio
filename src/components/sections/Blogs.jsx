@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 41,
+    title: "Layer Lens v1.2: See Exactly Where Your Email Goes in Your Analytics Stack",
+    image: "/images/blog/layer-lens.png",
+    filesource: "/blogs/layer-lens-v1-2-email-check.md",
+    date: "July 8, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 40,
     title: "Building a Firebase Analytics Error Tracking Dashboard",
     image: "/images/blog/firebase-error-dashboard.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     filesource: "/blogs/world-cup-sweepstake.md",
     date: "June 10, 2026",
     category: "Tech, Projects",
-  },{
-    id: 38,
-    title: "Introducing Layer Lens: Search Your GTM & GA4 Data in Real Time",
-    image: "/images/blog/layer-lens.png",
-    filesource: "/blogs/layer-lens-chrome-extension.md",
-    date: "June 8, 2026",
-    category: "Tech, Analytics",
   },
 ];
 
