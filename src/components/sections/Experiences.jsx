@@ -53,6 +53,12 @@ const educationData = [
 
 const experienceData = [
   {
+    id: 10,
+    title: "Founder & Director",
+    years: "August 2026 - Present",
+    content:
+      "Bird & Bear Group",
+  },{
     id: 9,
     title: "Product Manager - Tagging & Implementation",
     years: "February 2024 - June 2026",
@@ -61,7 +67,7 @@ const experienceData = [
   },{
     id: 8,
     title: "Consultant",
-    years: "October 2022 - Present",
+    years: "October 2022 - August 2024",
     content:
       "Higher Oak Consulting",
   },{

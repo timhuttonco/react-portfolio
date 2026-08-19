@@ -1,0 +1,37 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C6CE5"/>
+      <stop offset="100%" stop-color="#4E4EC9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad1)"/>
+
+  <!-- decorative dots -->
+  <circle cx="740" cy="60" r="6" fill="#ffffff" opacity="0.25"/>
+  <circle cx="710" cy="100" r="4" fill="#ffffff" opacity="0.2"/>
+  <circle cx="70" cy="380" r="8" fill="#ffffff" opacity="0.15"/>
+  <circle cx="110" cy="400" r="4" fill="#ffffff" opacity="0.2"/>
+
+  <!-- card -->
+  <rect x="70" y="95" width="290" height="260" rx="18" fill="#ffffff" opacity="0.08"/>
+
+  <!-- bar chart icon -->
+  <g transform="translate(150,170)">
+    <rect x="0" y="90" width="34" height="70" rx="4" fill="#F9D74C"/>
+    <rect x="48" y="55" width="34" height="105" rx="4" fill="#ffffff"/>
+    <rect x="96" y="20" width="34" height="140" rx="4" fill="#72D073"/>
+    <rect x="0" y="170" width="130" height="6" rx="3" fill="#ffffff" opacity="0.5"/>
+  </g>
+
+  <!-- magnifier accent -->
+  <g transform="translate(255,130)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#ffffff" stroke-width="7"/>
+    <line x1="19" y1="19" x2="40" y2="40" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- title -->
+  <text x="400" y="185" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Tagging &amp; Tracking</text>
+  <text x="400" y="235" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Audit</text>
+  <text x="400" y="280" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#EDEDFB">GA4 &#183; GTM &#183; BigQuery &#183; Consent checks</text>
+</svg>

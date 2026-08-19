@@ -47,7 +47,8 @@
 
 .btn-default {
     color: #FFF !important;
-    background: $colorpink;
+    background: $colorpink !important;
+    border-color: $colorpink !important;
     display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -55,8 +56,15 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 
-    &:hover {
-        color: #FFF;
+    // Bootstrap's base .btn:hover rule (loaded on some pages) otherwise wins
+    // the specificity fight and clears the background on hover, leaving
+    // invisible white-on-white text. Force our colours to stick.
+    &:hover,
+    &:focus,
+    &:active {
+        color: #FFF !important;
+        background: $colorpink !important;
+        border-color: $colorpink !important;
         -webkit-animation-name: button-push;
         animation-name: button-push;
         -webkit-animation-duration: 0.3s;

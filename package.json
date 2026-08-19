@@ -17,7 +17,7 @@
     "bootstrap": "^5.3.8",
     "buffer": "^6.0.3",
     "disqus-react": "^1.1.7",
-    "emailjs-com": "^3.2.0",
+    "@emailjs/browser": "^4.4.1",
     "fslightbox-react": "^2.0.0",
     "gray-matter": "^4.0.3",
     "history": "^5.3.0",

@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
+
+// EmailJS config — set these in a .env file (see .env.example). Free tier: 200 emails/month.
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 function Contact() {
   const [formdata, setFormdata] = useState({
@@ -13,6 +18,7 @@ function Contact() {
 
   const [error, setError] = useState(false);
   const [message, setMessage] = useState("");
+  const [sending, setSending] = useState(false);
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -28,13 +34,28 @@ function Contact() {
     } else if (!formdata.message) {
       setError(true);
       setMessage("Message is required");
+    } else if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+      setError(true);
+      setMessage("The contact form isn't configured yet — EmailJS keys are missing. See .env.example.");
     } else {
       setError(false);
-      setMessage("You message has been sent! Thank you for getting in touch, I will reply to you very shortly.");
-      emailjs.sendForm('service_nnbkxeu', 'template_1no5jr8', event.target, 'user_qIsuuYmswNgTufJ03YSVB')
-      .then((result) => {
-      }, (error) => {
-      });
+      setSending(true);
+      emailjs
+        .sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, event.target, {
+          publicKey: EMAILJS_PUBLIC_KEY,
+        })
+        .then(() => {
+          setSending(false);
+          setError(false);
+          setMessage("Your message has been sent! Thank you for getting in touch, I will reply to you very shortly.");
+          setFormdata({ name: "", email: "", subject: "", message: "" });
+        })
+        .catch((err) => {
+          setSending(false);
+          setError(true);
+          setMessage("Sorry, something went wrong sending your message. Please try emailing me directly instead.");
+          console.error("EmailJS error:", err);
+        });
     }
   };
 
@@ -90,6 +111,7 @@ function Contact() {
               onSubmit={submitHandler}
               method="POST"
             >
+              <input type="hidden" name="page_url" value={typeof window !== "undefined" ? window.location.href : ""} />
               <div className="row">
                 <div className="column col-md-6">
                   <div className="form-group">
@@ -153,8 +175,9 @@ function Contact() {
                 id="submit"
                 value="Submit"
                 className="btn btn-default"
+                disabled={sending}
               >
-                Send Message
+                {sending ? "Sending..." : "Send Message"}
               </button>
             </form>
             {handleAlerts()}

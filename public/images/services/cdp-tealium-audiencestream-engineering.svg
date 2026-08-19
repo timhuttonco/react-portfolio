@@ -1,0 +1,36 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B59B6"/>
+      <stop offset="100%" stop-color="#6C3483"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad10)"/>
+
+  <circle cx="740" cy="60" r="6" fill="#ffffff" opacity="0.25"/>
+  <circle cx="70" cy="390" r="8" fill="#ffffff" opacity="0.15"/>
+
+  <rect x="70" y="95" width="290" height="260" rx="18" fill="#ffffff" opacity="0.08"/>
+
+  <!-- identity resolution / audience network icon -->
+  <g transform="translate(120,150)">
+    <line x1="30" y1="30" x2="100" y2="20" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+    <line x1="30" y1="30" x2="90" y2="90" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+    <line x1="100" y1="20" x2="150" y2="70" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+    <line x1="90" y1="90" x2="150" y2="70" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+    <line x1="90" y1="90" x2="60" y2="150" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+    <line x1="150" y1="70" x2="170" y2="140" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+
+    <circle cx="30" cy="30" r="14" fill="#ffffff"/>
+    <circle cx="100" cy="20" r="10" fill="#F9D74C"/>
+    <circle cx="150" cy="70" r="12" fill="#ffffff"/>
+    <circle cx="90" cy="90" r="16" fill="#F97B8B"/>
+    <circle cx="60" cy="150" r="10" fill="#ffffff"/>
+    <circle cx="170" cy="140" r="10" fill="#72D073"/>
+  </g>
+
+  <text x="400" y="175" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">CDP / Tealium</text>
+  <text x="400" y="215" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">AudienceStream</text>
+  <text x="400" y="255" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Engineering</text>
+  <text x="400" y="290" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#EDE0F3">Segmentation &#183; Identity &#183; Activation</text>
+</svg>

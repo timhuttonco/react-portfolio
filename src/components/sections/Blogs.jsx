@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 42,
+    title: "The GA4 session_start Conundrum: How to Work With Impacted Data",
+    image: "/images/blog/google-sessionstart-issues.png",
+    filesource: "/blogs/google-sessionstart-issues.md",
+    date: "August 19, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 41,
     title: "Layer Lens v1.2: See Exactly Where Your Email Goes in Your Analytics Stack",
     image: "/images/blog/layer-lens.png",
@@ -19,13 +26,6 @@ const allBlogs = [
     filesource: "/blogs/firebase-error-dashboard.md",
     date: "June 15, 2026",
     category: "Tech, Analytics",
-  },{
-    id: 39,
-    title: "World Cup Sweepstake Generator",
-    image: "/images/blog/world-cup-sweepstake.png",
-    filesource: "/blogs/world-cup-sweepstake.md",
-    date: "June 10, 2026",
-    category: "Tech, Projects",
   },
 ];
 

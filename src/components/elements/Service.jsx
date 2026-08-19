@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Service({ service }) {
-  const { title, content, icon, color, contentColor } = service;
+  const { title, content, icon, color, contentColor, link } = service;
   const hexToRgb = (hex) => {
     const temp = hex
       .replace(
@@ -28,7 +29,15 @@ function Service({ service }) {
       }}
     >
       <img src={icon} alt={title} />
-      <h3 className="mb-3 mt-0">{title}</h3>
+      <h3 className="mb-3 mt-0">
+        {link ? (
+          <Link to={link} style={{ color: "inherit", textDecoration: "none" }}>
+            {title}
+          </Link>
+        ) : (
+          title
+        )}
+      </h3>
       <p className="mb-0">{content}</p>
     </div>
   );

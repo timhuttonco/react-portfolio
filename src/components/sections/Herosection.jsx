@@ -29,7 +29,7 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Tim Hutton</h1>
           <p>
-          Data Product Manager, Consultant and Mentor. Here's to something good.
+          Founder & Director at Bird & Bear. Analytics Expert, Data Product Manager, Consultant and Mentor. Here's to something good.
           </p>
 
           <ul className="social-icons light list-inline mb-0 mt-4">

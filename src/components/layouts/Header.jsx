@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Logo from "../elements/Logo";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faLinkedin, faInstagram, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
-import { faHome, faPencilAlt, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faPencilAlt, faBriefcase, faCogs } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-library.add(fab, faHome, faPencilAlt, faBriefcase)
+library.add(fab, faHome, faPencilAlt, faBriefcase, faCogs)
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {
@@ -72,7 +72,15 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
             </Link>
             </li>
             <li>
-            
+            <Link
+            to="/services"
+            >
+            <FontAwesomeIcon icon="cogs" />
+            &nbsp; Services
+            </Link>
+            </li>
+            <li>
+
             </li>
           </ul>
         </nav>

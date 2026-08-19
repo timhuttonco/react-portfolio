@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "animate.css/animate.min.css";
+import { Helmet } from 'react-helmet-async';
 import Header from "../components/layouts/Header";
 import Portfolio from "../components/elements/Portfolio";
 import Pagination from "../components/elements/Pagination";
@@ -273,6 +274,10 @@ function Portfoliolist() {
 
   return (
     <>
+      <Helmet>
+        <title>Portfolio | Tim Hutton</title>
+        <meta name="description" content="A portfolio of work, projects and career history by Tim Hutton." />
+      </Helmet>
       <Header
         logoSource="/images/logo.svg"
         toggleMenu={toggleMenu}

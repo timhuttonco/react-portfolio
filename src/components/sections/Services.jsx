@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import Pagetitle from "../elements/Pagetitle";
 import Service from "../elements/Service";
 
@@ -7,38 +8,61 @@ const servicesData = [
   {
     id: 1,
     icon: "images/implementation.svg",
-    title: "Technical Implementation",
+    title: "Analytics & Tracking Audits",
     content:
-      "Expert in implementing SaaS web technologies and building implementation processes, both as a client and a vendor, including using Tealium, Adobe DTM/Launch & Google Tag Manager.",
+      "10+ years implementing and auditing GA4, Google Tag Manager and data layer setups, finding broken tracking, duplicate events and misconfigured conversions before they skew every decision built on top of them.",
     color: "#6C6CE5",
     contentColor: "light",
+    link: "/services/tagging-tracking-audit",
   },
   {
     id: 2,
     icon: "images/sd-process.svg",
-    title: "Service Delivery Processes",
+    title: "Marketing Tag & Server-Side Implementation",
     content:
-      "Experience building Service Delivery teams from the ground up, including Technical Support, Implementation and Pre-Sales functions.",
+      "Hands-on implementation of Meta, LinkedIn, TikTok and Google tags, plus leading server-side tagging migrations, including directing exactly this migration across Kingfisher's full multi-brand estate.",
     color: "#F9D74C",
     contentColor: "dark",
+    link: "/services/marketing-tag-implementation",
   },
   {
     id: 3,
     icon: "images/analytics.svg",
-    title: "Analytics & UX",
+    title: "GDPR & Consent Mode Compliance",
     content:
-      "Knowledge and experience of working with, implementing, integrating and analysing analytics and UX platforms such as Google Analytics, Decibel, ContentSquare, Qualtrics and other split-testing and Voice of Customer tools, along with a history of advising a wide-range of clients in effectively improving user experience.",
+      "Specialist in privacy-compliant data collection, including Google Consent Mode v2 audits that check consent signals are correctly captured, mapped and respected across GTM and GA4.",
     color: "#F97B8B",
     contentColor: "light",
+    link: "/services/gdpr-consent-mode-v2-audit",
   },
   {
     id: 4,
     icon: "images/documentation.svg",
-    title: "Technical Documentation",
+    title: "Custom Dashboards & Monitoring",
     content:
-      "Passion and experience for writing public and internal technical documentation, along with building technical documentation processes across teams, including being the creator of the Decibel Knowledgebase.",
+      "Purpose-built dashboards for data quality monitoring and vendor contract/usage tracking, so problems get caught in days rather than discovered three months later in a quarterly report.",
     color: "#72D073",
     contentColor: "light",
+    link: "/services/data-quality-dashboards",
+  },
+  {
+    id: 5,
+    icon: "images/analytics.svg",
+    title: "Data Product Leadership",
+    content:
+      "Track record owning the full product lifecycle for analytics platforms, from customer discovery and roadmap prioritisation through to launch and adoption, at Kingfisher, YOOX Net-A-Porter and Tealium. Available full-time or as fractional, retained leadership.",
+    color: "#6C6CE5",
+    contentColor: "light",
+    link: "/services/fractional-analytics-leadership",
+  },
+  {
+    id: 6,
+    icon: "images/implementation.svg",
+    title: "Technical Documentation & Enablement",
+    content:
+      "Passion and experience for turning complex systems into clear, actionable documentation and processes teams actually use, including being the creator of the Decibel Knowledgebase.",
+    color: "#F9D74C",
+    contentColor: "dark",
   },
 ];
 
@@ -68,6 +92,10 @@ function Services() {
             </Link>{" "}
             to contact me! 👋
           </p>
+          <div className="spacer" data-height="30"></div>
+          <RouterLink to="/services" className="btn btn-default">
+            View Services
+          </RouterLink>
         </div>
       </div>
     </section>

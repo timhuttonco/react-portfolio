@@ -1,0 +1,30 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97B8B"/>
+      <stop offset="100%" stop-color="#E24F65"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad2)"/>
+
+  <!-- decorative dots -->
+  <circle cx="60" cy="70" r="6" fill="#ffffff" opacity="0.25"/>
+  <circle cx="95" cy="105" r="4" fill="#ffffff" opacity="0.2"/>
+  <circle cx="730" cy="370" r="8" fill="#ffffff" opacity="0.15"/>
+  <circle cx="700" cy="395" r="4" fill="#ffffff" opacity="0.2"/>
+
+  <!-- card -->
+  <rect x="440" y="95" width="290" height="260" rx="18" fill="#ffffff" opacity="0.08"/>
+
+  <!-- shield with check icon -->
+  <g transform="translate(535,150)">
+    <path d="M50 0 L100 20 L100 75 C100 115 78 140 50 155 C22 140 0 115 0 75 L0 20 Z" fill="#ffffff" opacity="0.95"/>
+    <path d="M30 78 L45 95 L75 55" fill="none" stroke="#E24F65" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- title -->
+  <text x="65" y="175" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#ffffff">GDPR / Consent</text>
+  <text x="65" y="220" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Mode V2 Compliance</text>
+  <text x="65" y="255" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Audit</text>
+  <text x="65" y="300" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#FDEBED">Consent signals &#183; GTM &#183; GA4 &#183; Ad data</text>
+</svg>

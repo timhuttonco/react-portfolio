@@ -7,7 +7,9 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import axios from "axios";
 import Header from "../components/layouts/Header";
+import ServiceContactForm from "../components/elements/ServiceContactForm";
 import { useParams } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 
 
 function WorkDetails(props) {
@@ -17,6 +19,20 @@ function WorkDetails(props) {
   const [blogData, setBlogData] = useState(null);
   const { title } = useParams(); // 'title' must match the :title in your App.jsx route
   const workFile = title;
+
+  // Portfolio markdown files don't carry frontmatter, so derive a readable
+  // title from the URL slug (matches the ### heading used inside each file).
+  const displayTitle = workFile.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+
+  const getExcerpt = (mdContent) => {
+    if (!mdContent) return `${displayTitle} — portfolio piece by Tim Hutton.`;
+    return mdContent
+      .replace(/<[^>]*>/g, "")
+      .replace(/[#*`_]/g, "")
+      .replace(/\[.*\]\(.*\)/g, "")
+      .trim()
+      .substring(0, 160) + "...";
+  };
 
   useEffect(() => {
   // 1. Remove any leading slashes or .md extensions from the variable
@@ -48,6 +64,10 @@ function WorkDetails(props) {
 
   return (
     <>
+      <Helmet>
+        <title>{displayTitle} | Tim Hutton</title>
+        <meta name="description" content={getExcerpt(content)} />
+      </Helmet>
       <Header
         logoSource="/images/logo.svg"
         toggleMenu={toggleMenu}
@@ -62,6 +82,10 @@ function WorkDetails(props) {
                 children={content}
               ></ReactMarkdown>
             </div>
+            <ServiceContactForm
+              serviceName={displayTitle}
+              heading="Interested in this service? Get in touch"
+            />
           </div>
         </div>
         <div className="spacer" data-height="96"></div>

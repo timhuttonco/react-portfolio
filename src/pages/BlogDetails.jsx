@@ -4,6 +4,7 @@ import rehypeRaw from "rehype-raw";
 import axios from "axios";
 import matter from "gray-matter";
 import Header from "../components/layouts/Header";
+import ServiceContactForm from "../components/elements/ServiceContactForm";
 import { useParams } from "react-router-dom";
 import { Helmet } from 'react-helmet-async';
 
@@ -111,11 +112,18 @@ function BlogDetails(props) {
                 <p>Loading post...</p>
               </div>
             ) : (
-              <div className="blog-single shadow-dark p-30">
-                <ReactMarkdown rehypePlugins={[rehypeRaw]}>
-                  {post.content}
-                </ReactMarkdown>
-              </div>
+              <>
+                <div className="blog-single shadow-dark p-30">
+                  <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+                    {post.content}
+                  </ReactMarkdown>
+                </div>
+                <ServiceContactForm
+                  serviceName={displayTitle}
+                  heading="Interested in this content? Get in touch"
+                  defaultMessage="I'm interested in this article — please get in touch."
+                />
+              </>
             )}
           </div>
         </div>

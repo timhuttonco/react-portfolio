@@ -8,6 +8,8 @@ import Bloglist from "./pages/Bloglist";
 import BlogDetails from "./pages/BlogDetails";
 import Portfoliolist from './pages/Portfoliolist';
 import WorkDetails from './pages/WorkDetails';
+import Serviceslist from './pages/Serviceslist';
+import ServiceDetails from './pages/ServiceDetails';
 import "./App.scss";
 import ScrollIntoView from './components/elements/ScrollIntoView';
 import ScrollToTop from "./components/elements/ScrollToTop";
@@ -35,6 +37,8 @@ function App() {
           <Route path="/portfolio" element={<Portfoliolist />} />
           <Route path="/portfolio/:title" element={<WorkDetails />} />
           <Route path="/blogs/:title" element={<BlogDetails />} />
+          <Route path="/services" element={<Serviceslist />} />
+          <Route path="/services/:title" element={<ServiceDetails />} />
         </Routes>
         <ScrollToTop />
       </ScrollIntoView>

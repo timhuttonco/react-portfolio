@@ -1,0 +1,25 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2FB6A5"/>
+      <stop offset="100%" stop-color="#1E8C7E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgGrad6)"/>
+
+  <circle cx="60" cy="70" r="6" fill="#ffffff" opacity="0.25"/>
+  <circle cx="730" cy="380" r="8" fill="#ffffff" opacity="0.15"/>
+
+  <rect x="440" y="95" width="290" height="260" rx="18" fill="#ffffff" opacity="0.1"/>
+
+  <!-- gauge icon -->
+  <g transform="translate(510,150)">
+    <path d="M0 90 A90 90 0 0 1 180 90" fill="none" stroke="#ffffff" stroke-width="14" opacity="0.9"/>
+    <line x1="90" y1="90" x2="140" y2="45" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="90" cy="90" r="10" fill="#ffffff"/>
+  </g>
+
+  <text x="65" y="185" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Data Quality</text>
+  <text x="65" y="230" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Dashboards</text>
+  <text x="65" y="270" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#DFF7F3">Always-on tracking regression monitoring</text>
+</svg>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import ReactCursorPosition from "react-cursor-position";
 import { Element } from "react-scroll";
+import { Helmet } from 'react-helmet-async';
 import Header from "../components/layouts/Header";
 import About from "../components/sections/About";
 import Blogs from "../components/sections/Blogs";
@@ -27,6 +28,10 @@ function Homepage() {
 
   return (
     <>
+      <Helmet>
+        <title>Tim Hutton | Founder & Director at Bird & Bear. Analytics Expert, Data Product Manager, Consultant and Mentor. Here's to something good.</title>
+        <meta name="description" content="Tim Hutton | Founder & Director at Bird & Bear. Analytics Expert, Data Product Manager, Consultant and Mentor. Here's to something good." />
+      </Helmet>
       <Header
         logoSource="/images/logo-b-light.svg"
         toggleMenu={toggleMenu}
