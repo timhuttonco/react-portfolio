@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../elements/Logo";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faLinkedin, faInstagram, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faHome, faPencilAlt, faBriefcase, faCogs } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-library.add(fab, faHome, faPencilAlt, faBriefcase, faCogs)
+library.add(faHome, faPencilAlt, faBriefcase, faCogs)
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {

@@ -2,11 +2,10 @@ import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import Timeline from "../elements/Timeline";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, } from '@fortawesome/free-brands-svg-icons';
 import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-library.add(fab, faBriefcase, faGraduationCap)
+library.add(faBriefcase, faGraduationCap)
 
 const educationData = [
   {
