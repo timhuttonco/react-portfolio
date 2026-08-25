@@ -12,6 +12,27 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 45,
+    title: "BigQuery Pipelines Can Now Document Themselves",
+    image: "/images/blog/google-sessionstart-issues.png",
+    filesource: "/blogs/bigquery-pipelines-self-documenting.md",
+    date: "August 25, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 44,
+    title: "Merchant Center Is Redefining 'Organic Traffic' on August 24",
+    image: "/images/blog/merchant-center.jpg",
+    filesource: "/blogs/merchant-center-redefining-organic-traffic.md",
+    date: "August 21, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 43,
+    title: "The App Tracking Transparency Prompt Was Never Neutral. Germany Just Made Apple Prove It.",
+    image: "/images/blog/germany-att-prompt-result.jpg",
+    filesource: "/blogs/germany-forces-apple-att-redesign.md",
+    date: "August 20, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 42,
     title: "The GA4 session_start Conundrum: How to Work With Impacted Data",
     image: "/images/blog/google-sessionstart-issues.png",
