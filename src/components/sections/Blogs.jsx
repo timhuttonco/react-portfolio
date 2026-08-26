@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 46,
+    title: "ChatGPT Ads Expand to Europe, With a New Measurement Pixel and Conversions API",
+    image: "/images/blog/open-ai-ads.jpg",
+    filesource: "/blogs/chatgpt-ads-europe-expansion.md",
+    date: "August 26, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 45,
     title: "BigQuery Pipelines Can Now Document Themselves",
     image: "/images/blog/google-sessionstart-issues.png",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/merchant-center.jpg",
     filesource: "/blogs/merchant-center-redefining-organic-traffic.md",
     date: "August 21, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 43,
-    title: "The App Tracking Transparency Prompt Was Never Neutral. Germany Just Made Apple Prove It.",
-    image: "/images/blog/germany-att-prompt-result.jpg",
-    filesource: "/blogs/germany-forces-apple-att-redesign.md",
-    date: "August 20, 2026",
     category: "Tech, Analytics",
   },
 ];

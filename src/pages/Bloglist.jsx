@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 46,
+    title: "ChatGPT Ads Expand to Europe, With a New Measurement Pixel and Conversions API",
+    image: "/images/blog/open-ai-ads.jpg",
+    filesource: "/blogs/chatgpt-ads-europe-expansion.md",
+    date: "August 26, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 45,
     title: "BigQuery Pipelines Can Now Document Themselves",
     image: "/images/blog/google-sessionstart-issues.png",
