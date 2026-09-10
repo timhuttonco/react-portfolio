@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 47,
+    title: "Google Analytics Now Has Native, Drag-and-Drop Dashboards",
+    image: "/images/blog/ga_dashboard1.png",
+    filesource: "/blogs/google-analytics-native-drag-and-drop-dashboards.md",
+    date: "September 10, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 46,
     title: "ChatGPT Ads Expand to Europe, With a New Measurement Pixel and Conversions API",
     image: "/images/blog/open-ai-ads.jpg",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/google-sessionstart-issues.png",
     filesource: "/blogs/bigquery-pipelines-self-documenting.md",
     date: "August 25, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 44,
-    title: "Merchant Center Is Redefining 'Organic Traffic' on August 24",
-    image: "/images/blog/merchant-center.jpg",
-    filesource: "/blogs/merchant-center-redefining-organic-traffic.md",
-    date: "August 21, 2026",
     category: "Tech, Analytics",
   },
 ];

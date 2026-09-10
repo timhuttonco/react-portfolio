@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 47,
+    title: "Google Analytics Now Has Native, Drag-and-Drop Dashboards",
+    image: "/images/blog/ga_dashboard1.png",
+    filesource: "/blogs/google-analytics-native-drag-and-drop-dashboards.md",
+    date: "September 10, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 46,
     title: "ChatGPT Ads Expand to Europe, With a New Measurement Pixel and Conversions API",
     image: "/images/blog/open-ai-ads.jpg",
