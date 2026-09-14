@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 48,
+    title: "Exploring Databricks' Lakehouse Industry Data Models",
+    image: "/images/blog/databricks-lakehouse-model.png",
+    filesource: "/blogs/databricks-lakehouse-industry-data-models.md",
+    date: "September 14, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 47,
     title: "Google Analytics Now Has Native, Drag-and-Drop Dashboards",
     image: "/images/blog/ga_dashboard1.png",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/open-ai-ads.jpg",
     filesource: "/blogs/chatgpt-ads-europe-expansion.md",
     date: "August 26, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 45,
-    title: "BigQuery Pipelines Can Now Document Themselves",
-    image: "/images/blog/google-sessionstart-issues.png",
-    filesource: "/blogs/bigquery-pipelines-self-documenting.md",
-    date: "August 25, 2026",
     category: "Tech, Analytics",
   },
 ];

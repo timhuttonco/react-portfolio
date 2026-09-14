@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 48,
+    title: "Exploring Databricks' Lakehouse Industry Data Models",
+    image: "/images/blog/databricks-lakehouse-model.png",
+    filesource: "/blogs/databricks-lakehouse-industry-data-models.md",
+    date: "September 14, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 47,
     title: "Google Analytics Now Has Native, Drag-and-Drop Dashboards",
     image: "/images/blog/ga_dashboard1.png",
