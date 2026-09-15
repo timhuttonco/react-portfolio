@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 49,
+    title: "Google Is Testing Payments to Publishers for Content Used in AI Answers",
+    image: "/images/blog/ai-contribution-pilot.png",
+    filesource: "/blogs/google-ai-contribution-pilot-publisher-payments.md",
+    date: "September 15, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 48,
     title: "Exploring Databricks' Lakehouse Industry Data Models",
     image: "/images/blog/databricks-lakehouse-model.png",

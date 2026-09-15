@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 49,
+    title: "Google Is Testing Payments to Publishers for Content Used in AI Answers",
+    image: "/images/blog/ai-contribution-pilot.png",
+    filesource: "/blogs/google-ai-contribution-pilot-publisher-payments.md",
+    date: "September 15, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 48,
     title: "Exploring Databricks' Lakehouse Industry Data Models",
     image: "/images/blog/databricks-lakehouse-model.png",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/ga_dashboard1.png",
     filesource: "/blogs/google-analytics-native-drag-and-drop-dashboards.md",
     date: "September 10, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 46,
-    title: "ChatGPT Ads Expand to Europe, With a New Measurement Pixel and Conversions API",
-    image: "/images/blog/open-ai-ads.jpg",
-    filesource: "/blogs/chatgpt-ads-europe-expansion.md",
-    date: "August 26, 2026",
     category: "Tech, Analytics",
   },
 ];
