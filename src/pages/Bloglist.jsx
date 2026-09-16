@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 50,
+    title: "Explaining BigQuery Conversational Analytics",
+    image: "/images/blog/bigquery-conversational1.png",
+    filesource: "/blogs/explaining-bigquery-conversational-analytics.md",
+    date: "September 16, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 49,
     title: "Google Is Testing Payments to Publishers for Content Used in AI Answers",
     image: "/images/blog/ai-contribution-pilot.png",

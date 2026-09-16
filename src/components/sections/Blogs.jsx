@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 50,
+    title: "Explaining BigQuery Conversational Analytics",
+    image: "/images/blog/bigquery-conversational1.png",
+    filesource: "/blogs/explaining-bigquery-conversational-analytics.md",
+    date: "September 16, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 49,
     title: "Google Is Testing Payments to Publishers for Content Used in AI Answers",
     image: "/images/blog/ai-contribution-pilot.png",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/databricks-lakehouse-model.png",
     filesource: "/blogs/databricks-lakehouse-industry-data-models.md",
     date: "September 14, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 47,
-    title: "Google Analytics Now Has Native, Drag-and-Drop Dashboards",
-    image: "/images/blog/ga_dashboard1.png",
-    filesource: "/blogs/google-analytics-native-drag-and-drop-dashboards.md",
-    date: "September 10, 2026",
     category: "Tech, Analytics",
   },
 ];
