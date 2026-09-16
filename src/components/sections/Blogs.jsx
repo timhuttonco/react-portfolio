@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 51,
+    title: "How to Build a Data Agent in BigQuery Conversational Analytics",
+    image: "/images/blog/bigquery-conversational6.png",
+    filesource: "/blogs/how-to-build-a-data-agent-in-bigquery-conversational-analytics.md",
+    date: "September 16, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 50,
     title: "Explaining BigQuery Conversational Analytics",
     image: "/images/blog/bigquery-conversational1.png",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/ai-contribution-pilot.png",
     filesource: "/blogs/google-ai-contribution-pilot-publisher-payments.md",
     date: "September 15, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 48,
-    title: "Exploring Databricks' Lakehouse Industry Data Models",
-    image: "/images/blog/databricks-lakehouse-model.png",
-    filesource: "/blogs/databricks-lakehouse-industry-data-models.md",
-    date: "September 14, 2026",
     category: "Tech, Analytics",
   },
 ];

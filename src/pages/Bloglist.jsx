@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 51,
+    title: "How to Build a Data Agent in BigQuery Conversational Analytics",
+    image: "/images/blog/bigquery-conversational6.png",
+    filesource: "/blogs/how-to-build-a-data-agent-in-bigquery-conversational-analytics.md",
+    date: "September 16, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 50,
     title: "Explaining BigQuery Conversational Analytics",
     image: "/images/blog/bigquery-conversational1.png",
