@@ -12,11 +12,11 @@ BigQuery has had a way to ask your data questions in plain English for a while n
 
 #### What It Is
 
-Conversational Analytics, per <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener noreferrer">Google's own documentation</a>, is powered by Gemini and lets people query BigQuery data in natural language instead of writing SQL. The part that makes it more than a chatbot bolted onto a warehouse is the Data Agent: a defined object made up of knowledge sources (the tables, views, or graphs it's allowed to see) plus a set of instructions for how to interpret questions about that data.
+Conversational Analytics, per <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener">Google's own documentation</a>, is powered by Gemini and lets people query BigQuery data in natural language instead of writing SQL. The part that makes it more than a chatbot bolted onto a warehouse is the Data Agent: a defined object made up of knowledge sources (the tables, views, or graphs it's allowed to see) plus a set of instructions for how to interpret questions about that data.
 
 A single agent can be pointed at up to 100 knowledge sources: tables, views, user-defined functions, or a graph. You build it once, configure it properly, and then share it with the team, rather than every person who wants to ask a question having to set up their own connection and hope Gemini guesses correctly what a column means.
 
-Here's what that actually looks like in practice, a published agent answering a broad, open-ended question about a taxi trips dataset (all gifs taken from Google's announcement <a href="https://cloud.google.com/blog/products/data-analytics/introducing-conversational-analytics-in-bigquery" target="_blank" rel="noopener noreferrer">here</a>):
+Here's what that actually looks like in practice, a published agent answering a broad, open-ended question about a taxi trips dataset (all gifs taken from Google's announcement <a href="https://cloud.google.com/blog/products/data-analytics/introducing-conversational-analytics-in-bigquery" target="_blank" rel="noopener">here</a>):
 
 ![Conversational Analytics answering an open-ended "show me insights about taxi trips" question with a written analysis of seasonal trends and pricing](/images/blog/bigquery-conversational3.gif)
 
@@ -34,7 +34,7 @@ Put together, this is a genuinely different thing from "connect an LLM to a data
 
 #### What It Can Actually Do Beyond Running a Query
 
-Conversational Analytics calls into BigQuery ML functions to answer questions that aren't just "run this SQL and return rows." Per <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener noreferrer">Google's own documentation</a>, that includes:
+Conversational Analytics calls into BigQuery ML functions to answer questions that aren't just "run this SQL and return rows." Per <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener">Google's own documentation</a>, that includes:
 
 - **Forecasting:** Via `AI.FORECAST`, "predict the number of trips for the next month," answered as a genuine forecast, not a lookup.
 - **Anomaly detection:** Via `AI.DETECT_ANOMALIES`, finding outliers against a baseline period.

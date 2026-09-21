@@ -34,22 +34,22 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/timhuttonco" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/timhuttonco" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={faLinkedin}/>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.instagram.com/timhuttonco/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/timhuttonco/" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={faInstagram}/>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://github.com/timhuttonco" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/timhuttonco" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={faGithub}/>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://timhuttonco.medium.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://timhuttonco.medium.com/" target="_blank" rel="noopener">
                 <FontAwesomeIcon icon={faMedium}/>
               </a>
             </li>

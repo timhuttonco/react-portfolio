@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 53,
+    title: "BigQuery's AI Agents, August to September 2026: A Timeline of Access and Guardrails",
+    image: "/images/blog/google-sessionstart-issues.png",
+    filesource: "/blogs/bigquery-ai-agents-timeline-august-september-2026.md",
+    date: "September 22, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 52,
     title: "Google Adds Diagnostics, a New Uplift Metric and Meridian Integration to Data Manager",
     image: "/images/blog/google-ads-data-manager.png",
@@ -17,13 +24,6 @@ const allBlogs = [
     title: "How to Build a Data Agent in BigQuery Conversational Analytics",
     image: "/images/blog/bigquery-conversational6.png",
     filesource: "/blogs/how-to-build-a-data-agent-in-bigquery-conversational-analytics.md",
-    date: "September 16, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 50,
-    title: "Explaining BigQuery Conversational Analytics",
-    image: "/images/blog/bigquery-conversational1.png",
-    filesource: "/blogs/explaining-bigquery-conversational-analytics.md",
     date: "September 16, 2026",
     category: "Tech, Analytics",
   },

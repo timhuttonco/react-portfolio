@@ -86,7 +86,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         </nav>
 
         <div className="footer">
-        <a href="https://www.linkedin.com/in/timhuttonco" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a> &nbsp; <a href="https://www.instagram.com/timhuttonco/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram}/></a> &nbsp; <a href="https://github.com/timhuttonco" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a> &nbsp; <a href="https://timhuttonco.medium.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium}/></a> &nbsp;<br />
+        <a href="https://www.linkedin.com/in/timhuttonco" target="_blank" rel="noopener"><FontAwesomeIcon icon={faLinkedin}/></a> &nbsp; <a href="https://www.instagram.com/timhuttonco/" target="_blank" rel="noopener"><FontAwesomeIcon icon={faInstagram}/></a> &nbsp; <a href="https://github.com/timhuttonco" target="_blank" rel="noopener"><FontAwesomeIcon icon={faGithub}/></a> &nbsp; <a href="https://timhuttonco.medium.com/" target="_blank" rel="noopener"><FontAwesomeIcon icon={faMedium}/></a> &nbsp;<br />
           <span className="copyright">
             &copy; {new Date().getFullYear()} Tim Hutton
           </span>

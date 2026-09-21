@@ -8,7 +8,7 @@ image: "/images/blog/bigquery-conversational6.png"
 
 ### How to Build a Data Agent in BigQuery Conversational Analytics
 
-The <a href="/blogs/explaining-bigquery-conversational-analytics" target="_blank" rel="noopener noreferrer">overview piece on Conversational Analytics</a> covered what a Data Agent actually is and why the glossary and verified query features matter more than the chat interface itself. This is the follow-up for anyone who read that and wants to build one.
+The <a href="/blogs/explaining-bigquery-conversational-analytics" target="_blank" rel="noopener">overview piece on Conversational Analytics</a> covered what a Data Agent actually is and why the glossary and verified query features matter more than the chat interface itself. This is the follow-up for anyone who read that and wants to build one.
 
 #### Before You Start
 
@@ -20,7 +20,7 @@ In the Google Cloud console, go to BigQuery's **Agents** page, select the **Agen
 
 #### Adding Knowledge Sources
 
-In the **Knowledge sources** section, click **Add source**. You can pick tables, views, graphs, or user-defined functions straight from **Recents**, or search by name for anything else. Add everything the agent genuinely needs, and stop there. Remember the ceiling is 100 sources per agent, and <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener noreferrer">Google's own documentation</a> is explicit that broadly-scoped agents produce inconsistent answers. A narrow, well-chosen set of sources beats a maximal one.
+In the **Knowledge sources** section, click **Add source**. You can pick tables, views, graphs, or user-defined functions straight from **Recents**, or search by name for anything else. Add everything the agent genuinely needs, and stop there. Remember the ceiling is 100 sources per agent, and <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener">Google's own documentation</a> is explicit that broadly-scoped agents produce inconsistent answers. A narrow, well-chosen set of sources beats a maximal one.
 
 Once sources are added, click **Customise** under each one. Gemini will suggest table and field descriptions, which you can accept, edit, or reject individually. This is worth doing properly rather than accepting every suggestion by default. A wrong field description doesn't cause an error, it just quietly steers the agent toward the wrong interpretation of a question.
 
@@ -64,7 +64,7 @@ Once it's shared, people can use it directly in BigQuery Studio, through the "Ch
 
 #### The Permissions Detail Worth Remembering
 
-Per <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener noreferrer">Google's own documentation</a>, agents act on the permissions of whoever's asking, not on some elevated service identity: "Agents can only access data and resources that you have permission to access." A shared agent doesn't quietly give someone access to a table they couldn't already query. If a question against the agent fails or returns nothing, checking the asker's own underlying BigQuery permissions is a reasonable first troubleshooting step.
+Per <a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics" target="_blank" rel="noopener">Google's own documentation</a>, agents act on the permissions of whoever's asking, not on some elevated service identity: "Agents can only access data and resources that you have permission to access." A shared agent doesn't quietly give someone access to a table they couldn't already query. If a question against the agent fails or returns nothing, checking the asker's own underlying BigQuery permissions is a reasonable first troubleshooting step.
 
 #### What to Actually Do About It
 
