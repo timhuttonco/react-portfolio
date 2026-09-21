@@ -12,6 +12,13 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 52,
+    title: "Google Adds Diagnostics, a New Uplift Metric and Meridian Integration to Data Manager",
+    image: "/images/blog/google-ads-data-manager.png",
+    filesource: "/blogs/google-data-manager-diagnostics-uplift-meridian.md",
+    date: "September 21, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 51,
     title: "How to Build a Data Agent in BigQuery Conversational Analytics",
     image: "/images/blog/bigquery-conversational6.png",

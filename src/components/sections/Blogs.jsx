@@ -6,6 +6,13 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 52,
+    title: "Google Adds Diagnostics, a New Uplift Metric and Meridian Integration to Data Manager",
+    image: "/images/blog/google-ads-data-manager.png",
+    filesource: "/blogs/google-data-manager-diagnostics-uplift-meridian.md",
+    date: "September 21, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 51,
     title: "How to Build a Data Agent in BigQuery Conversational Analytics",
     image: "/images/blog/bigquery-conversational6.png",
@@ -18,13 +25,6 @@ const allBlogs = [
     image: "/images/blog/bigquery-conversational1.png",
     filesource: "/blogs/explaining-bigquery-conversational-analytics.md",
     date: "September 16, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 49,
-    title: "Google Is Testing Payments to Publishers for Content Used in AI Answers",
-    image: "/images/blog/ai-contribution-pilot.png",
-    filesource: "/blogs/google-ai-contribution-pilot-publisher-payments.md",
-    date: "September 15, 2026",
     category: "Tech, Analytics",
   },
 ];
