@@ -6,25 +6,25 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
+    id: 55,
+    title: "BigQuery Adds AI.KEY_DRIVERS and a New Security Center",
+    image: "/images/blog/bigquery.png",
+    filesource: "/blogs/bigquery-ai-key-drivers-security-center.md",
+    date: "October 5, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 54,
+    title: "\"Finally, a Conversions API Setup That Doesn't Require Web Developers\" - Read This Before Acting",
+    image: "/images/blog/meta-conversions-api.png",
+    filesource: "/blogs/meta-conversions-api-gateway-no-developer.md",
+    date: "October 2, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 53,
     title: "BigQuery's AI Agents, August to September 2026: A Timeline of Access and Guardrails",
     image: "/images/blog/google-sessionstart-issues.png",
     filesource: "/blogs/bigquery-ai-agents-timeline-august-september-2026.md",
     date: "September 22, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 52,
-    title: "Google Adds Diagnostics, a New Uplift Metric and Meridian Integration to Data Manager",
-    image: "/images/blog/google-ads-data-manager.png",
-    filesource: "/blogs/google-data-manager-diagnostics-uplift-meridian.md",
-    date: "September 21, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 51,
-    title: "How to Build a Data Agent in BigQuery Conversational Analytics",
-    image: "/images/blog/bigquery-conversational6.png",
-    filesource: "/blogs/how-to-build-a-data-agent-in-bigquery-conversational-analytics.md",
-    date: "September 16, 2026",
     category: "Tech, Analytics",
   },
 ];

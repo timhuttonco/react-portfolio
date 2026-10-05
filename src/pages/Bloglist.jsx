@@ -12,6 +12,20 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
+    id: 55,
+    title: "BigQuery Adds AI.KEY_DRIVERS and a New Security Center",
+    image: "/images/blog/bigquery.png",
+    filesource: "/blogs/bigquery-ai-key-drivers-security-center.md",
+    date: "October 5, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 54,
+    title: "\"Finally, a Conversions API Setup That Doesn't Require Web Developers\" - Read This Before Acting",
+    image: "/images/blog/meta-conversions-api.png",
+    filesource: "/blogs/meta-conversions-api-gateway-no-developer.md",
+    date: "October 2, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 53,
     title: "BigQuery's AI Agents, August to September 2026: A Timeline of Access and Guardrails",
     image: "/images/blog/google-sessionstart-issues.png",
