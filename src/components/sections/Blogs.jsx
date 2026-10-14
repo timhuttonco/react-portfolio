@@ -6,25 +6,25 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
-    id: 64,
+    id: 66,
     title: "Adobe's AI Assistant Can Now Audit Your Data Before You Build on It",
     image: "/images/blog/adobe-cja2.png",
     filesource: "/blogs/adobe-ai-assistant-audit-data-quality.md",
     date: "October 15, 2026",
     category: "Tech, Analytics",
   },{
-    id: 63,
-    title: "Adobe's September CJA Release Roundup",
-    image: "/images/blog/adobe-cja.png",
-    filesource: "/blogs/adobe-cja-september-release-roundup.md",
-    date: "October 13, 2026",
+    id: 65,
+    title: "Google Ads Customer Match Adds IP Address Matching",
+    image: "/images/blog/google-ads.png",
+    filesource: "/blogs/google-ads-customer-match-ip-address-matching.md",
+    date: "October 14, 2026",
     category: "Tech, Analytics",
   },{
-    id: 62,
-    title: "Checkout Page Tracking Scripts Disabled on Some Shopify Stores",
-    image: "/images/blog/shopify-analytics.png",
-    filesource: "/blogs/shopify-checkout-tracking-scripts-disabled.md",
-    date: "October 12, 2026",
+    id: 64,
+    title: "Google Tag Manager's New Destination Tags and Optimisations",
+    image: "/images/blog/gtm-optimize-container.png",
+    filesource: "/blogs/google-tag-manager-destination-tags-optimisations.md",
+    date: "October 13, 2026",
     category: "Tech, Analytics",
   },
 ];
