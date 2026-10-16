@@ -12,10 +12,31 @@ import Pagination from "../components/elements/Pagination";
 
 const allBlogs = [
   {
-    id: 66,
+    id: 69,
+    title: "Gemini 4 Argon Released",
+    image: "/images/blog/gemini-argon.png",
+    filesource: "/blogs/gemini-4-argon-released.md",
+    date: "October 16, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 68,
+    title: "ChatGPT Stops Tagging Outbound Links",
+    image: "/images/blog/chatgpt-phone.png",
+    filesource: "/blogs/chatgpt-stops-tagging-outbound-links.md",
+    date: "October 15, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 67,
     title: "Adobe's AI Assistant Can Now Audit Your Data Before You Build on It",
     image: "/images/blog/adobe-cja2.png",
     filesource: "/blogs/adobe-ai-assistant-audit-data-quality.md",
+    date: "October 15, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 66,
+    title: "Google's AI Mode Checkout Live on Some Shopify Stores, Causing Some GA4 Issues",
+    image: "/images/blog/google-shopify-ai.png",
+    filesource: "/blogs/google-ai-mode-checkout-shopify-ga4-issues.md",
     date: "October 15, 2026",
     category: "Tech, Analytics",
   },{

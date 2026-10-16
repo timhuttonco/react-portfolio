@@ -6,25 +6,25 @@ import Pagetitle from "../elements/Pagetitle";
 
 const allBlogs = [
   {
-    id: 66,
+    id: 69,
+    title: "Gemini 4 Argon Released",
+    image: "/images/blog/gemini-argon.png",
+    filesource: "/blogs/gemini-4-argon-released.md",
+    date: "October 16, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 68,
+    title: "ChatGPT Stops Tagging Outbound Links",
+    image: "/images/blog/chatgpt-phone.png",
+    filesource: "/blogs/chatgpt-stops-tagging-outbound-links.md",
+    date: "October 15, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 67,
     title: "Adobe's AI Assistant Can Now Audit Your Data Before You Build on It",
     image: "/images/blog/adobe-cja2.png",
     filesource: "/blogs/adobe-ai-assistant-audit-data-quality.md",
     date: "October 15, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 65,
-    title: "Google Ads Customer Match Adds IP Address Matching",
-    image: "/images/blog/google-ads.png",
-    filesource: "/blogs/google-ads-customer-match-ip-address-matching.md",
-    date: "October 14, 2026",
-    category: "Tech, Analytics",
-  },{
-    id: 64,
-    title: "Google Tag Manager's New Destination Tags and Optimisations",
-    image: "/images/blog/gtm-optimize-container.png",
-    filesource: "/blogs/google-tag-manager-destination-tags-optimisations.md",
-    date: "October 13, 2026",
     category: "Tech, Analytics",
   },
 ];
