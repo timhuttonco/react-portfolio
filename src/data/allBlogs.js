@@ -3,6 +3,41 @@
 // but still load via their direct link.
 export const allBlogs = [
   {
+    id: 75,
+    title: "Diving into the Antigravity Agent with the Gemini API",
+    image: "/images/blog/google-antigravity-agent.png",
+    filesource: "/blogs/diving-into-the-antigravity-agent-with-the-gemini-api.md",
+    date: "October 23, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 74,
+    title: "What Google Built With Gemini 4 Argon: The Showcase Apps and the Workflow Behind Them",
+    image: "/images/blog/gemini-4-argon-showcase.png",
+    filesource: "/blogs/what-google-built-with-gemini-4-argon-showcase-apps-and-workflow.md",
+    date: "October 22, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 73,
+    title: "Getting Started With Google Antigravity and Gemini 4 Argon",
+    image: "/images/blog/google-antigravity.png",
+    filesource: "/blogs/getting-started-with-google-antigravity-and-gemini-4-argon.md",
+    date: "October 20, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 72,
+    title: "Looker Data Apps Build AI Tools on Top of Your Existing Access Controls",
+    image: "/images/blog/looker.png",
+    filesource: "/blogs/looker-data-apps-ai-tools-existing-access-controls.md",
+    date: "October 20, 2026",
+    category: "Tech, Analytics",
+  },{
+    id: 71,
+    title: "Google Launches a User Groups Admin API for GA4 and Google Marketing Platform",
+    image: "/images/blog/gmp-admin-api.png",
+    filesource: "/blogs/google-user-groups-admin-api-ga4-google-marketing-platform.md",
+    date: "October 19, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 70,
     title: "How to Call Gemini 4 Argon From Your Own Code",
     image: "/images/blog/gemini-4-argon-code.png",
