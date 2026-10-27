@@ -3,6 +3,13 @@
 // but still load via their direct link.
 export const allBlogs = [
   {
+    id: 77,
+    title: "Gemini in Google Sheets can now query your whole BigQuery dataset, not just what's on the sheet",
+    image: "/images/blog/gemini-sheets.gif",
+    filesource: "/blogs/gemini-in-google-sheets-query-whole-bigquery-dataset.md",
+    date: "October 27, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 76,
     title: "We Built a Small Chrome Extension to Duplicate Tealium Event Specs",
     image: "/images/blog/tealium-event-spec-duplicate2.png",
