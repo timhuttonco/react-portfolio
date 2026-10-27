@@ -12,6 +12,12 @@ import Pagination from "../components/elements/Pagination";
 
 const allWorks = [
   {
+    id: 35,
+        title: "Browser Extension: Duplicating Tealium Event Specs",
+        image: "/images/works/tealium-event-spec-duplicate2.png",
+        filesource: "../portfolio/browser-extension-duplicating-tealium-event-specs.md",
+        category: "Projects, Analytics",
+    },{
     id: 34,
         title: "Layer Lens v1.2 — Email Privacy Detection",
         image: "/images/works/layer-lens.png",

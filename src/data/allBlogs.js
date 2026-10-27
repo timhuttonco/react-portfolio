@@ -3,6 +3,13 @@
 // but still load via their direct link.
 export const allBlogs = [
   {
+    id: 76,
+    title: "We Built a Small Chrome Extension to Duplicate Tealium Event Specs",
+    image: "/images/blog/tealium-event-spec-duplicate2.png",
+    filesource: "/blogs/we-built-a-chrome-extension-to-duplicate-tealium-event-specs.md",
+    date: "October 27, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 75,
     title: "Diving into the Antigravity Agent with the Gemini API",
     image: "/images/blog/google-antigravity-agent.png",
