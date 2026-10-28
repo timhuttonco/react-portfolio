@@ -3,6 +3,13 @@
 // but still load via their direct link.
 export const allBlogs = [
   {
+    id: 78,
+    title: "Safari 27 Blocks Identity Resolution Vendors",
+    image: "/images/blog/safari-27.png",
+    filesource: "/blogs/safari-27-blocks-identity-resolution-vendors.md",
+    date: "October 28, 2026",
+    category: "Tech, Analytics",
+  },{
     id: 77,
     title: "Gemini in Google Sheets can now query your whole BigQuery dataset, not just what's on the sheet",
     image: "/images/blog/gemini-sheets.gif",
